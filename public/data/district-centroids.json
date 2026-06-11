@@ -1,0 +1,3635 @@
+[
+  {
+    "shapeName": "Aceh Barat",
+    "shapeID": "22746128B65593111718524",
+    "shapeType": "ADM2",
+    "latitude": 4.454093938659838,
+    "longitude": 96.21531802731964
+  },
+  {
+    "shapeName": "Aceh Barat Daya",
+    "shapeID": "22746128B227561513795",
+    "shapeType": "ADM2",
+    "latitude": 3.8273359368098587,
+    "longitude": 96.81846776748473
+  },
+  {
+    "shapeName": "Aceh Besar",
+    "shapeID": "22746128B90547447297479",
+    "shapeType": "ADM2",
+    "latitude": 5.480016237936307,
+    "longitude": 95.31301806342947
+  },
+  {
+    "shapeName": "Aceh Jaya",
+    "shapeID": "22746128B21424895456858",
+    "shapeType": "ADM2",
+    "latitude": 4.8819749449871885,
+    "longitude": 95.53716419640115
+  },
+  {
+    "shapeName": "Aceh Selatan",
+    "shapeID": "22746128B12428400263117",
+    "shapeType": "ADM2",
+    "latitude": 3.215435402523696,
+    "longitude": 97.35828554542587
+  },
+  {
+    "shapeName": "Aceh Singkil",
+    "shapeID": "22746128B17710719872214",
+    "shapeType": "ADM2",
+    "latitude": 2.241354760254622,
+    "longitude": 97.47066339448375
+  },
+  {
+    "shapeName": "Aceh Tamiang",
+    "shapeID": "22746128B57620394058931",
+    "shapeType": "ADM2",
+    "latitude": 4.255360652032561,
+    "longitude": 98.04203713739848
+  },
+  {
+    "shapeName": "Aceh Tengah",
+    "shapeID": "22746128B89023327523654",
+    "shapeType": "ADM2",
+    "latitude": 4.583686087888241,
+    "longitude": 96.80600120931682
+  },
+  {
+    "shapeName": "Aceh Tenggara",
+    "shapeID": "22746128B65780821536148",
+    "shapeType": "ADM2",
+    "latitude": 3.359694080228167,
+    "longitude": 97.7592440231939
+  },
+  {
+    "shapeName": "Aceh Timur",
+    "shapeID": "22746128B94735591859977",
+    "shapeType": "ADM2",
+    "latitude": 4.764387028080271,
+    "longitude": 97.61532114068774
+  },
+  {
+    "shapeName": "Aceh Utara",
+    "shapeID": "22746128B43339434023645",
+    "shapeType": "ADM2",
+    "latitude": 5.015636827032182,
+    "longitude": 97.30751954253313
+  },
+  {
+    "shapeName": "Agam",
+    "shapeID": "22746128B89220130199878",
+    "shapeType": "ADM2",
+    "latitude": -0.2595131319999593,
+    "longitude": 100.17420137133345
+  },
+  {
+    "shapeName": "Alor",
+    "shapeID": "22746128B1117135414899",
+    "shapeType": "ADM2",
+    "latitude": -8.324362337944619,
+    "longitude": 124.36275733741763
+  },
+  {
+    "shapeName": "Asahan",
+    "shapeID": "22746128B26461090721788",
+    "shapeType": "ADM2",
+    "latitude": 2.8393233710227697,
+    "longitude": 99.54823543125003
+  },
+  {
+    "shapeName": "Asmat",
+    "shapeID": "22746128B62198228854475",
+    "shapeType": "ADM2",
+    "latitude": -5.664794225230727,
+    "longitude": 138.14294412400008
+  },
+  {
+    "shapeName": "Badung",
+    "shapeID": "22746128B76986430159502",
+    "shapeType": "ADM2",
+    "latitude": -8.552586342597367,
+    "longitude": 115.19672005116895
+  },
+  {
+    "shapeName": "Balangan",
+    "shapeID": "22746128B67876608948387",
+    "shapeType": "ADM2",
+    "latitude": -2.278165455376301,
+    "longitude": 115.68668654945165
+  },
+  {
+    "shapeName": "Bandung",
+    "shapeID": "22746128B73297609500416",
+    "shapeType": "ADM2",
+    "latitude": -7.041118744222183,
+    "longitude": 107.65063419577768
+  },
+  {
+    "shapeName": "Bandung Barat",
+    "shapeID": "22746128B79756617117888",
+    "shapeType": "ADM2",
+    "latitude": -6.85800214775371,
+    "longitude": 107.40562877004997
+  },
+  {
+    "shapeName": "Banggai",
+    "shapeID": "22746128B48169474795911",
+    "shapeType": "ADM2",
+    "latitude": -0.8801486362333253,
+    "longitude": 122.74581555158662
+  },
+  {
+    "shapeName": "Banggai Kepulauan",
+    "shapeID": "22746128B2571336805106",
+    "shapeType": "ADM2",
+    "latitude": -1.4203933764003245,
+    "longitude": 123.17709315335175
+  },
+  {
+    "shapeName": "Banggai Laut",
+    "shapeID": "22746128B78411617556279",
+    "shapeType": "ADM2",
+    "latitude": -1.9067606413124123,
+    "longitude": 123.60717639716644
+  },
+  {
+    "shapeName": "Bangka",
+    "shapeID": "22746128B27585215741432",
+    "shapeType": "ADM2",
+    "latitude": -1.9211871255143629,
+    "longitude": 105.90768106584375
+  },
+  {
+    "shapeName": "Bangka Barat",
+    "shapeID": "22746128B47433230053131",
+    "shapeType": "ADM2",
+    "latitude": -1.859861567623982,
+    "longitude": 105.52833921279374
+  },
+  {
+    "shapeName": "Bangka Selatan",
+    "shapeID": "22746128B19321376976921",
+    "shapeType": "ADM2",
+    "latitude": -2.83384151544603,
+    "longitude": 106.56567005286293
+  },
+  {
+    "shapeName": "Bangka Tengah",
+    "shapeID": "22746128B66707258567489",
+    "shapeType": "ADM2",
+    "latitude": -2.4247388175438185,
+    "longitude": 106.2420759903509
+  },
+  {
+    "shapeName": "Bangkalan",
+    "shapeID": "22746128B23347682239441",
+    "shapeType": "ADM2",
+    "latitude": -7.030180432666624,
+    "longitude": 112.96063358600009
+  },
+  {
+    "shapeName": "Bangli",
+    "shapeID": "22746128B25936754669599",
+    "shapeType": "ADM2",
+    "latitude": -8.315110816731476,
+    "longitude": 115.35309733501956
+  },
+  {
+    "shapeName": "Banjar",
+    "shapeID": "22746128B79736905882971",
+    "shapeType": "ADM2",
+    "latitude": -3.2748265571014126,
+    "longitude": 115.10036587768123
+  },
+  {
+    "shapeName": "Banjarnegara",
+    "shapeID": "22746128B31481808975183",
+    "shapeType": "ADM2",
+    "latitude": -7.368413726562458,
+    "longitude": 109.63769776874999
+  },
+  {
+    "shapeName": "Bantaeng",
+    "shapeID": "22746128B71175962379658",
+    "shapeType": "ADM2",
+    "latitude": -5.4908963523809105,
+    "longitude": 119.9850234455783
+  },
+  {
+    "shapeName": "Bantul",
+    "shapeID": "22746128B15956982783625",
+    "shapeType": "ADM2",
+    "latitude": -7.859869510476143,
+    "longitude": 110.38168879555555
+  },
+  {
+    "shapeName": "Banyu Asin",
+    "shapeID": "22746128B71070720422540",
+    "shapeType": "ADM2",
+    "latitude": -2.460036721297383,
+    "longitude": 104.73139143488378
+  },
+  {
+    "shapeName": "Banyumas",
+    "shapeID": "22746128B18933963724988",
+    "shapeType": "ADM2",
+    "latitude": -7.4744698271027605,
+    "longitude": 109.21212771526478
+  },
+  {
+    "shapeName": "Banyuwangi",
+    "shapeID": "22746128B51270543903443",
+    "shapeType": "ADM2",
+    "latitude": -8.409934763619718,
+    "longitude": 114.17969874990868
+  },
+  {
+    "shapeName": "Barito Kuala",
+    "shapeID": "22746128B88870484763637",
+    "shapeType": "ADM2",
+    "latitude": -3.155421503553255,
+    "longitude": 114.57496193248737
+  },
+  {
+    "shapeName": "Barito Selatan",
+    "shapeID": "22746128B74191069780867",
+    "shapeType": "ADM2",
+    "latitude": -1.940394086861272,
+    "longitude": 114.94086088832124
+  },
+  {
+    "shapeName": "Barito Timur",
+    "shapeID": "22746128B29529230943245",
+    "shapeType": "ADM2",
+    "latitude": -1.9316420477986993,
+    "longitude": 115.28360455660376
+  },
+  {
+    "shapeName": "Barito Utara",
+    "shapeID": "22746128B89680104320053",
+    "shapeType": "ADM2",
+    "latitude": -0.7379925529780121,
+    "longitude": 115.3274387442007
+  },
+  {
+    "shapeName": "Barru",
+    "shapeID": "22746128B81694843903641",
+    "shapeType": "ADM2",
+    "latitude": -4.438423235860022,
+    "longitude": 119.6820611489797
+  },
+  {
+    "shapeName": "Batang",
+    "shapeID": "22746128B4894534477686",
+    "shapeType": "ADM2",
+    "latitude": -7.023131609230729,
+    "longitude": 109.85595468576932
+  },
+  {
+    "shapeName": "Batang Hari",
+    "shapeID": "22746128B80000441774097",
+    "shapeType": "ADM2",
+    "latitude": -1.7752249799538729,
+    "longitude": 103.12126837350237
+  },
+  {
+    "shapeName": "Batu Bara",
+    "shapeID": "22746128B96384374000902",
+    "shapeType": "ADM2",
+    "latitude": 3.2383982631579418,
+    "longitude": 99.4475090923446
+  },
+  {
+    "shapeName": "Bekasi",
+    "shapeID": "22746128B74302729610221",
+    "shapeType": "ADM2",
+    "latitude": -6.229250994292197,
+    "longitude": 107.11525667488588
+  },
+  {
+    "shapeName": "Belitung",
+    "shapeID": "22746128B80009106787015",
+    "shapeType": "ADM2",
+    "latitude": -2.89869595700079,
+    "longitude": 107.60167514672746
+  },
+  {
+    "shapeName": "Belitung Timur",
+    "shapeID": "22746128B98690900191937",
+    "shapeType": "ADM2",
+    "latitude": -2.9223194046428165,
+    "longitude": 108.16347714380959
+  },
+  {
+    "shapeName": "Belu",
+    "shapeID": "22746128B36840991830224",
+    "shapeType": "ADM2",
+    "latitude": -9.15531795754186,
+    "longitude": 124.95868328212308
+  },
+  {
+    "shapeName": "Bener Meriah",
+    "shapeID": "22746128B4257100474226",
+    "shapeType": "ADM2",
+    "latitude": 4.7699753619048035,
+    "longitude": 96.97490352809525
+  },
+  {
+    "shapeName": "Bengkalis",
+    "shapeID": "22746128B45456061674897",
+    "shapeType": "ADM2",
+    "latitude": 1.6011441285088166,
+    "longitude": 101.70419681622808
+  },
+  {
+    "shapeName": "Bengkayang",
+    "shapeID": "22746128B96004883426087",
+    "shapeType": "ADM2",
+    "latitude": 0.9979644396469132,
+    "longitude": 109.44097917897273
+  },
+  {
+    "shapeName": "Bengkulu Selatan",
+    "shapeID": "22746128B78254403614329",
+    "shapeType": "ADM2",
+    "latitude": -4.326889890789432,
+    "longitude": 103.06042351710525
+  },
+  {
+    "shapeName": "Bengkulu Tengah",
+    "shapeID": "22746128B16836972822517",
+    "shapeType": "ADM2",
+    "latitude": -3.7065403990291017,
+    "longitude": 102.42707256116509
+  },
+  {
+    "shapeName": "Bengkulu Utara",
+    "shapeID": "22746128B39887218554518",
+    "shapeType": "ADM2",
+    "latitude": -4.100624360112334,
+    "longitude": 102.12460793651698
+  },
+  {
+    "shapeName": "Berau",
+    "shapeID": "22746128B34069275840087",
+    "shapeType": "ADM2",
+    "latitude": 1.791938073631645,
+    "longitude": 118.04950036030455
+  },
+  {
+    "shapeName": "Biak Numfor",
+    "shapeID": "22746128B19254678251292",
+    "shapeType": "ADM2",
+    "latitude": -1.0922835229954169,
+    "longitude": 135.83885737307128
+  },
+  {
+    "shapeName": "Bima",
+    "shapeID": "22746128B14082340634491",
+    "shapeType": "ADM2",
+    "latitude": -8.538553846187012,
+    "longitude": 118.82381782482018
+  },
+  {
+    "shapeName": "Bintan",
+    "shapeID": "22746128B62804497316712",
+    "shapeType": "ADM2",
+    "latitude": 0.9139455150396215,
+    "longitude": 105.381472592876
+  },
+  {
+    "shapeName": "Bireuen",
+    "shapeID": "22746128B71427834061478",
+    "shapeType": "ADM2",
+    "latitude": 5.10192051162795,
+    "longitude": 96.58748040232567
+  },
+  {
+    "shapeName": "Blitar",
+    "shapeID": "22746128B45235083091424",
+    "shapeType": "ADM2",
+    "latitude": -8.160263978718506,
+    "longitude": 112.2210117169338
+  },
+  {
+    "shapeName": "Blora",
+    "shapeID": "22746128B85780086903212",
+    "shapeType": "ADM2",
+    "latitude": -7.102184350988972,
+    "longitude": 111.40845011098907
+  },
+  {
+    "shapeName": "Boalemo",
+    "shapeID": "22746128B1718153682633",
+    "shapeType": "ADM2",
+    "latitude": 0.6018218349231198,
+    "longitude": 122.39042519492332
+  },
+  {
+    "shapeName": "Bogor",
+    "shapeID": "22746128B99423643145371",
+    "shapeType": "ADM2",
+    "latitude": -6.487977858020009,
+    "longitude": 106.8010604164162
+  },
+  {
+    "shapeName": "Bojonegoro",
+    "shapeID": "22746128B62232019301027",
+    "shapeType": "ADM2",
+    "latitude": -7.208520248467391,
+    "longitude": 111.81536804693489
+  },
+  {
+    "shapeName": "Bolaang Mongondow",
+    "shapeID": "22746128B99982169683342",
+    "shapeType": "ADM2",
+    "latitude": 0.7398593460630348,
+    "longitude": 124.05117310728347
+  },
+  {
+    "shapeName": "Bolaang Mongondow Selatan",
+    "shapeID": "22746128B14720240696101",
+    "shapeType": "ADM2",
+    "latitude": 0.4316347919414369,
+    "longitude": 124.00177328388281
+  },
+  {
+    "shapeName": "Bolaang Mongondow Timur",
+    "shapeID": "22746128B26195600949416",
+    "shapeType": "ADM2",
+    "latitude": 0.6987075191358483,
+    "longitude": 124.53532970956806
+  },
+  {
+    "shapeName": "Bolaang Mongondow Utara",
+    "shapeID": "22746128B96389329417801",
+    "shapeType": "ADM2",
+    "latitude": 0.8208294179412201,
+    "longitude": 123.40783046647067
+  },
+  {
+    "shapeName": "Bombana",
+    "shapeID": "22746128B28760414544557",
+    "shapeType": "ADM2",
+    "latitude": -4.921153648041191,
+    "longitude": 121.86288094711348
+  },
+  {
+    "shapeName": "Bondowoso",
+    "shapeID": "22746128B61555758059649",
+    "shapeType": "ADM2",
+    "latitude": -7.956085411180081,
+    "longitude": 113.93224392236029
+  },
+  {
+    "shapeName": "Bone",
+    "shapeID": "22746128B25468135680533",
+    "shapeType": "ADM2",
+    "latitude": -4.731904471107958,
+    "longitude": 120.11830982819107
+  },
+  {
+    "shapeName": "Bone Bolango",
+    "shapeID": "22746128B41707288718561",
+    "shapeType": "ADM2",
+    "latitude": 0.5314951987654779,
+    "longitude": 123.2614332732511
+  },
+  {
+    "shapeName": "Boven Digoel",
+    "shapeID": "22746128B21273779065212",
+    "shapeType": "ADM2",
+    "latitude": -6.376008251449233,
+    "longitude": 140.73682568550737
+  },
+  {
+    "shapeName": "Boyolali",
+    "shapeID": "22746128B51975137382727",
+    "shapeType": "ADM2",
+    "latitude": -7.3828183396905365,
+    "longitude": 110.67795796575354
+  },
+  {
+    "shapeName": "Brebes",
+    "shapeID": "22746128B82312103386068",
+    "shapeType": "ADM2",
+    "latitude": -7.053656241452956,
+    "longitude": 108.93924394957276
+  },
+  {
+    "shapeName": "Buleleng",
+    "shapeID": "22746128B19337828575841",
+    "shapeType": "ADM2",
+    "latitude": -8.203955877252211,
+    "longitude": 114.90534671554057
+  },
+  {
+    "shapeName": "Bulukumba",
+    "shapeID": "22746128B72639885395673",
+    "shapeType": "ADM2",
+    "latitude": -5.42871041323073,
+    "longitude": 120.24150500123086
+  },
+  {
+    "shapeName": "Bulungan",
+    "shapeID": "22746128B10941975158621",
+    "shapeType": "ADM2",
+    "latitude": 3.0386842367116307,
+    "longitude": 117.3448753127763
+  },
+  {
+    "shapeName": "Bungo",
+    "shapeID": "22746128B28569646979400",
+    "shapeType": "ADM2",
+    "latitude": -1.561337193965476,
+    "longitude": 101.97298193735638
+  },
+  {
+    "shapeName": "Buol",
+    "shapeID": "22746128B60636029206407",
+    "shapeType": "ADM2",
+    "latitude": 1.014859563093459,
+    "longitude": 121.56462716324651
+  },
+  {
+    "shapeName": "Buru",
+    "shapeID": "22746128B29167244459072",
+    "shapeType": "ADM2",
+    "latitude": -3.2578957088105316,
+    "longitude": 126.86101181629971
+  },
+  {
+    "shapeName": "Buru Selatan",
+    "shapeID": "22746128B90083339512512",
+    "shapeType": "ADM2",
+    "latitude": -3.629807101604237,
+    "longitude": 126.57373736336913
+  },
+  {
+    "shapeName": "Buton",
+    "shapeID": "22746128B86741169633217",
+    "shapeType": "ADM2",
+    "latitude": -5.312004145776524,
+    "longitude": 122.92740282615796
+  },
+  {
+    "shapeName": "Buton Selatan",
+    "shapeID": "22746128B94245100908076",
+    "shapeType": "ADM2",
+    "latitude": -5.687251412435191,
+    "longitude": 122.624814141969
+  },
+  {
+    "shapeName": "Buton Tengah",
+    "shapeID": "22746128B6718763508294",
+    "shapeType": "ADM2",
+    "latitude": -5.3442901414438095,
+    "longitude": 122.35774160882357
+  },
+  {
+    "shapeName": "Buton Utara",
+    "shapeID": "22746128B51044624823813",
+    "shapeType": "ADM2",
+    "latitude": -4.71823813690804,
+    "longitude": 123.08408180626739
+  },
+  {
+    "shapeName": "Ciamis",
+    "shapeID": "22746128B17121530580660",
+    "shapeType": "ADM2",
+    "latitude": -7.290535021344494,
+    "longitude": 108.43128092789925
+  },
+  {
+    "shapeName": "Cianjur",
+    "shapeID": "22746128B34542084533901",
+    "shapeType": "ADM2",
+    "latitude": -7.004260733555224,
+    "longitude": 107.16170660945413
+  },
+  {
+    "shapeName": "Cilacap",
+    "shapeID": "22746128B37209370352000",
+    "shapeType": "ADM2",
+    "latitude": -7.48133903531743,
+    "longitude": 108.86583424265879
+  },
+  {
+    "shapeName": "Cirebon",
+    "shapeID": "22746128B77544549346240",
+    "shapeType": "ADM2",
+    "latitude": -6.778317111728695,
+    "longitude": 108.58541756045975
+  },
+  {
+    "shapeName": "Dairi",
+    "shapeID": "22746128B7455670127099",
+    "shapeType": "ADM2",
+    "latitude": 2.8962839523077313,
+    "longitude": 98.22379898564108
+  },
+  {
+    "shapeName": "Danau",
+    "shapeID": "22746128B15758871990616",
+    "shapeType": "ADM2",
+    "latitude": -1.4265268534246227,
+    "longitude": 110.3045617570776
+  },
+  {
+    "shapeName": "Danau Toba",
+    "shapeID": "22746128B58041142516585",
+    "shapeType": "ADM2",
+    "latitude": 2.5588857968475907,
+    "longitude": 98.82421064193426
+  },
+  {
+    "shapeName": "Deiyai",
+    "shapeID": "22746128B51921656212420",
+    "shapeType": "ADM2",
+    "latitude": -4.225150117699077,
+    "longitude": 136.39579023539832
+  },
+  {
+    "shapeName": "Deli Serdang",
+    "shapeID": "22746128B17104196518473",
+    "shapeType": "ADM2",
+    "latitude": 3.5556569579278303,
+    "longitude": 98.6630759712717
+  },
+  {
+    "shapeName": "Demak",
+    "shapeID": "22746128B71519500232359",
+    "shapeType": "ADM2",
+    "latitude": -6.932460719036657,
+    "longitude": 110.62163250711025
+  },
+  {
+    "shapeName": "Dharmasraya",
+    "shapeID": "22746128B7219534805401",
+    "shapeType": "ADM2",
+    "latitude": -1.1641247178116596,
+    "longitude": 101.51729169592879
+  },
+  {
+    "shapeName": "Dogiyai",
+    "shapeID": "22746128B76462588476684",
+    "shapeType": "ADM2",
+    "latitude": -4.028716940384574,
+    "longitude": 135.79843575384623
+  },
+  {
+    "shapeName": "Dompu",
+    "shapeID": "22746128B31420255543838",
+    "shapeType": "ADM2",
+    "latitude": -8.51831166795093,
+    "longitude": 118.2170829593695
+  },
+  {
+    "shapeName": "Donggala",
+    "shapeID": "22746128B11403753934380",
+    "shapeType": "ADM2",
+    "latitude": -0.4256780479541314,
+    "longitude": 119.80333526587576
+  },
+  {
+    "shapeName": "Empat Lawang",
+    "shapeID": "22746128B47089116764549",
+    "shapeType": "ADM2",
+    "latitude": -3.7363346939515685,
+    "longitude": 102.97735029153232
+  },
+  {
+    "shapeName": "Ende",
+    "shapeID": "22746128B46201528673681",
+    "shapeType": "ADM2",
+    "latitude": -8.656882295780548,
+    "longitude": 121.72845801540085
+  },
+  {
+    "shapeName": "Enrekang",
+    "shapeID": "22746128B73854324401708",
+    "shapeType": "ADM2",
+    "latitude": -3.5045929852631157,
+    "longitude": 119.88260657263157
+  },
+  {
+    "shapeName": "Fakfak",
+    "shapeID": "22746128B79106566109504",
+    "shapeType": "ADM2",
+    "latitude": -3.0377829031993406,
+    "longitude": 132.49461260393778
+  },
+  {
+    "shapeName": "Flores Timur",
+    "shapeID": "22746128B68993103553012",
+    "shapeType": "ADM2",
+    "latitude": -8.356677890302992,
+    "longitude": 122.95264802030303
+  },
+  {
+    "shapeName": "Garut",
+    "shapeID": "22746128B66421464971893",
+    "shapeType": "ADM2",
+    "latitude": -7.310469593700755,
+    "longitude": 107.8217289769685
+  },
+  {
+    "shapeName": "Gayo Lues",
+    "shapeID": "22746128B71384327775718",
+    "shapeType": "ADM2",
+    "latitude": 4.046900237692347,
+    "longitude": 97.42788854269233
+  },
+  {
+    "shapeName": "Gianyar",
+    "shapeID": "22746128B44616450347238",
+    "shapeType": "ADM2",
+    "latitude": -8.45721894715022,
+    "longitude": 115.28186851709852
+  },
+  {
+    "shapeName": "Gorontalo",
+    "shapeID": "22746128B1660874628525",
+    "shapeType": "ADM2",
+    "latitude": 0.69415662790702,
+    "longitude": 122.66582524496138
+  },
+  {
+    "shapeName": "Gorontalo Utara",
+    "shapeID": "22746128B78667545948550",
+    "shapeType": "ADM2",
+    "latitude": 0.898305578064561,
+    "longitude": 122.70422766916143
+  },
+  {
+    "shapeName": "Gowa",
+    "shapeID": "22746128B57887954309635",
+    "shapeType": "ADM2",
+    "latitude": -5.317126438197384,
+    "longitude": 119.6431181716739
+  },
+  {
+    "shapeName": "Gresik",
+    "shapeID": "22746128B46933486274006",
+    "shapeType": "ADM2",
+    "latitude": -6.756904278146809,
+    "longitude": 112.56612479720297
+  },
+  {
+    "shapeName": "Grobogan",
+    "shapeID": "22746128B71964042918672",
+    "shapeType": "ADM2",
+    "latitude": -7.115389883123832,
+    "longitude": 110.84472073662488
+  },
+  {
+    "shapeName": "Gunung Kidul",
+    "shapeID": "22746128B54859500646728",
+    "shapeType": "ADM2",
+    "latitude": -7.992420703740618,
+    "longitude": 110.59983707830429
+  },
+  {
+    "shapeName": "Gunung Mas",
+    "shapeID": "22746128B12491014044373",
+    "shapeType": "ADM2",
+    "latitude": -0.9612654387386941,
+    "longitude": 113.49716067927939
+  },
+  {
+    "shapeName": "Halmahera Barat",
+    "shapeID": "22746128B52341022582766",
+    "shapeType": "ADM2",
+    "latitude": 1.3362245852156478,
+    "longitude": 127.57446537258728
+  },
+  {
+    "shapeName": "Halmahera Selatan",
+    "shapeID": "22746128B2838702785556",
+    "shapeType": "ADM2",
+    "latitude": -0.6802061074685455,
+    "longitude": 127.66260542619864
+  },
+  {
+    "shapeName": "Halmahera Tengah",
+    "shapeID": "22746128B46636453933041",
+    "shapeType": "ADM2",
+    "latitude": 0.31832720121094177,
+    "longitude": 128.46213090524745
+  },
+  {
+    "shapeName": "Halmahera Timur",
+    "shapeID": "22746128B70343351071090",
+    "shapeType": "ADM2",
+    "latitude": 0.8911019188184227,
+    "longitude": 128.29818108490161
+  },
+  {
+    "shapeName": "Halmahera Utara",
+    "shapeID": "22746128B41252486574655",
+    "shapeType": "ADM2",
+    "latitude": 1.6502089697062219,
+    "longitude": 127.83794767254294
+  },
+  {
+    "shapeName": "Hulu Sungai Selatan",
+    "shapeID": "22746128B37889128386884",
+    "shapeType": "ADM2",
+    "latitude": -2.773749034659055,
+    "longitude": 115.2948560005682
+  },
+  {
+    "shapeName": "Hulu Sungai Tengah",
+    "shapeID": "22746128B20472072190374",
+    "shapeType": "ADM2",
+    "latitude": -2.619715059748392,
+    "longitude": 115.52090026289315
+  },
+  {
+    "shapeName": "Hulu Sungai Utara",
+    "shapeID": "22746128B21492383155838",
+    "shapeType": "ADM2",
+    "latitude": -2.447791519696926,
+    "longitude": 115.20688555303039
+  },
+  {
+    "shapeName": "Humbang Hasundutan",
+    "shapeID": "22746128B305851071948",
+    "shapeType": "ADM2",
+    "latitude": 2.2671687029557077,
+    "longitude": 98.59461469014781
+  },
+  {
+    "shapeName": "Hutan",
+    "shapeID": "22746128B69994664325988",
+    "shapeType": "ADM2",
+    "latitude": -7.165983139682507,
+    "longitude": 110.3532300444445
+  },
+  {
+    "shapeName": "Indragiri Hilir",
+    "shapeID": "22746128B36468792556341",
+    "shapeType": "ADM2",
+    "latitude": -0.32378285205293633,
+    "longitude": 103.37376386132456
+  },
+  {
+    "shapeName": "Indragiri Hulu",
+    "shapeID": "22746128B72920479258091",
+    "shapeType": "ADM2",
+    "latitude": -0.7199222050690821,
+    "longitude": 102.1808112751153
+  },
+  {
+    "shapeName": "Indramayu",
+    "shapeID": "22746128B59462811669242",
+    "shapeType": "ADM2",
+    "latitude": -6.481933656589106,
+    "longitude": 108.11969601530997
+  },
+  {
+    "shapeName": "Intan Jaya",
+    "shapeID": "22746128B83440404091664",
+    "shapeType": "ADM2",
+    "latitude": -3.152803751644691,
+    "longitude": 136.49690429013168
+  },
+  {
+    "shapeName": "Jayapura",
+    "shapeID": "22746128B71103770185906",
+    "shapeType": "ADM2",
+    "latitude": -3.037665121726978,
+    "longitude": 140.1107246743733
+  },
+  {
+    "shapeName": "Jayawijaya",
+    "shapeID": "22746128B40741333574981",
+    "shapeType": "ADM2",
+    "latitude": -4.023315438961001,
+    "longitude": 138.81231602207797
+  },
+  {
+    "shapeName": "Jember",
+    "shapeID": "22746128B56085237319005",
+    "shapeType": "ADM2",
+    "latitude": -8.314067294630835,
+    "longitude": 113.61166965476517
+  },
+  {
+    "shapeName": "Jembrana",
+    "shapeID": "22746128B85592790675198",
+    "shapeType": "ADM2",
+    "latitude": -8.297610649769545,
+    "longitude": 114.69146546359454
+  },
+  {
+    "shapeName": "Jeneponto",
+    "shapeID": "22746128B64050318598962",
+    "shapeType": "ADM2",
+    "latitude": -5.560313165606894,
+    "longitude": 119.70100189161856
+  },
+  {
+    "shapeName": "Jepara",
+    "shapeID": "22746128B68650893607060",
+    "shapeType": "ADM2",
+    "latitude": -6.267115109479511,
+    "longitude": 110.63231888029733
+  },
+  {
+    "shapeName": "Jombang",
+    "shapeID": "22746128B39847330151566",
+    "shapeType": "ADM2",
+    "latitude": -7.514819413375769,
+    "longitude": 112.2530267601911
+  },
+  {
+    "shapeName": "Kaimana",
+    "shapeID": "22746128B93097528927367",
+    "shapeType": "ADM2",
+    "latitude": -3.7345809972842345,
+    "longitude": 133.93460809426674
+  },
+  {
+    "shapeName": "Kampar",
+    "shapeID": "22746128B8837306932395",
+    "shapeType": "ADM2",
+    "latitude": 0.2453102192177293,
+    "longitude": 101.044400339966
+  },
+  {
+    "shapeName": "Kapuas",
+    "shapeID": "22746128B40136746216216",
+    "shapeType": "ADM2",
+    "latitude": -2.192605998338826,
+    "longitude": 114.35538880764126
+  },
+  {
+    "shapeName": "Kapuas Hulu",
+    "shapeID": "22746128B82886709098386",
+    "shapeType": "ADM2",
+    "latitude": 1.0512070279070223,
+    "longitude": 112.85612858685143
+  },
+  {
+    "shapeName": "Karang Asem",
+    "shapeID": "22746128B60715781377305",
+    "shapeType": "ADM2",
+    "latitude": -8.398502311520696,
+    "longitude": 115.4979033631337
+  },
+  {
+    "shapeName": "Karanganyar",
+    "shapeID": "22746128B38192287274107",
+    "shapeType": "ADM2",
+    "latitude": -7.602751357507943,
+    "longitude": 110.96961999137376
+  },
+  {
+    "shapeName": "Karawang",
+    "shapeID": "22746128B53840275251202",
+    "shapeType": "ADM2",
+    "latitude": -6.276472882057375,
+    "longitude": 107.31176176866035
+  },
+  {
+    "shapeName": "Karimun",
+    "shapeID": "22746128B38340908247842",
+    "shapeType": "ADM2",
+    "latitude": 0.810754928736504,
+    "longitude": 103.5754816021662
+  },
+  {
+    "shapeName": "Karo",
+    "shapeID": "22746128B49947212525753",
+    "shapeType": "ADM2",
+    "latitude": 3.12841001157899,
+    "longitude": 98.2949994617544
+  },
+  {
+    "shapeName": "Katingan",
+    "shapeID": "22746128B40819362853427",
+    "shapeType": "ADM2",
+    "latitude": -1.6792020406779256,
+    "longitude": 113.03963407917692
+  },
+  {
+    "shapeName": "Kaur",
+    "shapeID": "22746128B79405855452274",
+    "shapeType": "ADM2",
+    "latitude": -4.628515655515973,
+    "longitude": 103.44779671032028
+  },
+  {
+    "shapeName": "Kayong Utara",
+    "shapeID": "22746128B56151469580770",
+    "shapeType": "ADM2",
+    "latitude": -1.3145331604981765,
+    "longitude": 109.4204843913404
+  },
+  {
+    "shapeName": "Kebumen",
+    "shapeID": "22746128B26305825050369",
+    "shapeType": "ADM2",
+    "latitude": -7.628500829328594,
+    "longitude": 109.59001628197885
+  },
+  {
+    "shapeName": "Kediri",
+    "shapeID": "22746128B82286187836997",
+    "shapeType": "ADM2",
+    "latitude": -7.813657549999955,
+    "longitude": 112.09759848602154
+  },
+  {
+    "shapeName": "Keerom",
+    "shapeID": "22746128B17774751253690",
+    "shapeType": "ADM2",
+    "latitude": -3.4198543373785997,
+    "longitude": 140.51252475857618
+  },
+  {
+    "shapeName": "Kendal",
+    "shapeID": "22746128B21241240008354",
+    "shapeType": "ADM2",
+    "latitude": -7.064778512276736,
+    "longitude": 110.16116598415185
+  },
+  {
+    "shapeName": "Kepahiang",
+    "shapeID": "22746128B30869437307727",
+    "shapeType": "ADM2",
+    "latitude": -3.601345388421008,
+    "longitude": 102.6188832284211
+  },
+  {
+    "shapeName": "Kepulauan Anambas",
+    "shapeID": "22746128B99951880476592",
+    "shapeType": "ADM2",
+    "latitude": 3.0956227071722684,
+    "longitude": 106.14286995833714
+  },
+  {
+    "shapeName": "Kepulauan Aru",
+    "shapeID": "22746128B17511076551422",
+    "shapeType": "ADM2",
+    "latitude": -6.088107482354281,
+    "longitude": 134.52109094859048
+  },
+  {
+    "shapeName": "Kepulauan Mentawai",
+    "shapeID": "22746128B86355072671334",
+    "shapeType": "ADM2",
+    "latitude": -2.300409947153741,
+    "longitude": 99.74711274197125
+  },
+  {
+    "shapeName": "Kepulauan Meranti",
+    "shapeID": "22746128B32802105420608",
+    "shapeType": "ADM2",
+    "latitude": 0.9888058710227678,
+    "longitude": 102.71576920454545
+  },
+  {
+    "shapeName": "Kepulauan Sangihe",
+    "shapeID": "22746128B28296608330436",
+    "shapeType": "ADM2",
+    "latitude": 3.5187082328431813,
+    "longitude": 125.56145579620095
+  },
+  {
+    "shapeName": "Kepulauan Selayar",
+    "shapeID": "22746128B1615833901652",
+    "shapeType": "ADM2",
+    "latitude": -6.750344455425962,
+    "longitude": 120.7942204755158
+  },
+  {
+    "shapeName": "Kepulauan Seribu",
+    "shapeID": "22746128B63742079715926",
+    "shapeType": "ADM2",
+    "latitude": -5.672978905555512,
+    "longitude": 106.57542217430553
+  },
+  {
+    "shapeName": "Kepulauan Sula",
+    "shapeID": "22746128B81791072961966",
+    "shapeType": "ADM2",
+    "latitude": -1.9050220599999552,
+    "longitude": 125.7902990185401
+  },
+  {
+    "shapeName": "Kepulauan Talaud",
+    "shapeID": "22746128B45484540858108",
+    "shapeType": "ADM2",
+    "latitude": 4.242617101980237,
+    "longitude": 126.79393687009915
+  },
+  {
+    "shapeName": "Kepulauan Yapen",
+    "shapeID": "22746128B96094928872069",
+    "shapeType": "ADM2",
+    "latitude": -1.7440355447923372,
+    "longitude": 135.9753607428183
+  },
+  {
+    "shapeName": "Kerinci",
+    "shapeID": "22746128B64633952285861",
+    "shapeType": "ADM2",
+    "latitude": -2.056091974380122,
+    "longitude": 101.51247130578514
+  },
+  {
+    "shapeName": "Ketapang",
+    "shapeID": "22746128B56277764926455",
+    "shapeType": "ADM2",
+    "latitude": -1.7189535465866754,
+    "longitude": 110.46316248856098
+  },
+  {
+    "shapeName": "Klaten",
+    "shapeID": "22746128B24447956326165",
+    "shapeType": "ADM2",
+    "latitude": -7.685557156115061,
+    "longitude": 110.65191692446051
+  },
+  {
+    "shapeName": "Klungkung",
+    "shapeID": "22746128B73073409478343",
+    "shapeType": "ADM2",
+    "latitude": -8.671252071672308,
+    "longitude": 115.47760825767914
+  },
+  {
+    "shapeName": "Kolaka",
+    "shapeID": "22746128B69202393010200",
+    "shapeType": "ADM2",
+    "latitude": -4.19661047594748,
+    "longitude": 121.51732708673484
+  },
+  {
+    "shapeName": "Kolaka Timur",
+    "shapeID": "22746128B88028223529334",
+    "shapeType": "ADM2",
+    "latitude": -3.738535395930189,
+    "longitude": 121.56052109651166
+  },
+  {
+    "shapeName": "Kolaka Utara",
+    "shapeID": "22746128B11198700179718",
+    "shapeType": "ADM2",
+    "latitude": -3.1574007324852773,
+    "longitude": 121.09473103307243
+  },
+  {
+    "shapeName": "Konawe",
+    "shapeID": "22746128B78249855862414",
+    "shapeType": "ADM2",
+    "latitude": -3.6767170377418905,
+    "longitude": 122.04390833758067
+  },
+  {
+    "shapeName": "Konawe Kepulauan",
+    "shapeID": "22746128B22870517920414",
+    "shapeType": "ADM2",
+    "latitude": -4.113005380620113,
+    "longitude": 123.09143733488376
+  },
+  {
+    "shapeName": "Konawe Selatan",
+    "shapeID": "22746128B90195550492320",
+    "shapeType": "ADM2",
+    "latitude": -4.261494920913669,
+    "longitude": 122.5744445690355
+  },
+  {
+    "shapeName": "Konawe Utara",
+    "shapeID": "22746128B68991025063444",
+    "shapeType": "ADM2",
+    "latitude": -3.4748625664417774,
+    "longitude": 122.22702625632377
+  },
+  {
+    "shapeName": "Kota Ambon",
+    "shapeID": "22746128B58388026658287",
+    "shapeType": "ADM2",
+    "latitude": -3.678815994930831,
+    "longitude": 128.17486770322589
+  },
+  {
+    "shapeName": "Kota Balikpapan",
+    "shapeID": "22746128B66626446070966",
+    "shapeType": "ADM2",
+    "latitude": -1.1581386171170744,
+    "longitude": 116.85738097837844
+  },
+  {
+    "shapeName": "Kota Banda Aceh",
+    "shapeID": "22746128B56363132836699",
+    "shapeType": "ADM2",
+    "latitude": 5.558721883871011,
+    "longitude": 95.32318573870978
+  },
+  {
+    "shapeName": "Kota Bandar Lampung",
+    "shapeID": "22746128B13880384963573",
+    "shapeType": "ADM2",
+    "latitude": -5.429481010614483,
+    "longitude": 105.26778672737429
+  },
+  {
+    "shapeName": "Kota Bandung",
+    "shapeID": "22746128B71762235135177",
+    "shapeType": "ADM2",
+    "latitude": -6.895382786363594,
+    "longitude": 107.64446032954554
+  },
+  {
+    "shapeName": "Kota Banjar",
+    "shapeID": "22746128B64728543729693",
+    "shapeType": "ADM2",
+    "latitude": -7.376667086614131,
+    "longitude": 108.56132399921269
+  },
+  {
+    "shapeName": "Kota Banjar Baru",
+    "shapeID": "22746128B6711072078761",
+    "shapeType": "ADM2",
+    "latitude": -3.495369931958719,
+    "longitude": 114.8428733030928
+  },
+  {
+    "shapeName": "Kota Banjarmasin",
+    "shapeID": "22746128B37126944555810",
+    "shapeType": "ADM2",
+    "latitude": -3.3311733870369977,
+    "longitude": 114.60238460925929
+  },
+  {
+    "shapeName": "Kota Baru",
+    "shapeID": "22746128B85816588264471",
+    "shapeType": "ADM2",
+    "latitude": -3.1094512886758645,
+    "longitude": 116.13972528935422
+  },
+  {
+    "shapeName": "Kota Batam",
+    "shapeID": "22746128B16651418017337",
+    "shapeType": "ADM2",
+    "latitude": 0.9458136995803154,
+    "longitude": 104.04673248286144
+  },
+  {
+    "shapeName": "Kota Batu",
+    "shapeID": "22746128B69457994360094",
+    "shapeType": "ADM2",
+    "latitude": -7.840298908139494,
+    "longitude": 112.53757284418606
+  },
+  {
+    "shapeName": "Kota Baubau",
+    "shapeID": "22746128B66779214231616",
+    "shapeType": "ADM2",
+    "latitude": -5.4394069751723695,
+    "longitude": 122.65579614344831
+  },
+  {
+    "shapeName": "Kota Bekasi",
+    "shapeID": "22746128B54763839112631",
+    "shapeType": "ADM2",
+    "latitude": -6.308920610465073,
+    "longitude": 106.96372515038769
+  },
+  {
+    "shapeName": "Kota Bengkulu",
+    "shapeID": "22746128B322693337562",
+    "shapeType": "ADM2",
+    "latitude": -3.8483833641025367,
+    "longitude": 102.31405111282056
+  },
+  {
+    "shapeName": "Kota Bima",
+    "shapeID": "22746128B33789977192923",
+    "shapeType": "ADM2",
+    "latitude": -8.441653906140303,
+    "longitude": 118.75349351052634
+  },
+  {
+    "shapeName": "Kota Binjai",
+    "shapeID": "22746128B66679629138785",
+    "shapeType": "ADM2",
+    "latitude": 3.6114144715686702,
+    "longitude": 98.48707370294126
+  },
+  {
+    "shapeName": "Kota Bitung",
+    "shapeID": "22746128B20507278995893",
+    "shapeType": "ADM2",
+    "latitude": 1.463669189253739,
+    "longitude": 125.21714298447779
+  },
+  {
+    "shapeName": "Kota Blitar",
+    "shapeID": "22746128B15123001204790",
+    "shapeType": "ADM2",
+    "latitude": -8.098588311428529,
+    "longitude": 112.16556651428574
+  },
+  {
+    "shapeName": "Kota Bogor",
+    "shapeID": "22746128B63896883204987",
+    "shapeType": "ADM2",
+    "latitude": -6.587126536607103,
+    "longitude": 106.7893416276786
+  },
+  {
+    "shapeName": "Kota Bontang",
+    "shapeID": "22746128B2679722836886",
+    "shapeType": "ADM2",
+    "latitude": 0.10804156278199752,
+    "longitude": 117.48725432368428
+  },
+  {
+    "shapeName": "Kota Bukittinggi",
+    "shapeID": "22746128B12322141134935",
+    "shapeType": "ADM2",
+    "latitude": -0.2949420749999604,
+    "longitude": 100.36347717250007
+  },
+  {
+    "shapeName": "Kota Cilegon",
+    "shapeID": "22746128B25933583546422",
+    "shapeType": "ADM2",
+    "latitude": -5.9981821903954415,
+    "longitude": 106.00304716497179
+  },
+  {
+    "shapeName": "Kota Cimahi",
+    "shapeID": "22746128B53430054982428",
+    "shapeType": "ADM2",
+    "latitude": -6.885497495588194,
+    "longitude": 107.5457962205883
+  },
+  {
+    "shapeName": "Kota Cirebon",
+    "shapeID": "22746128B80288264799633",
+    "shapeType": "ADM2",
+    "latitude": -6.738499177108388,
+    "longitude": 108.5537083831326
+  },
+  {
+    "shapeName": "Kota Denpasar",
+    "shapeID": "22746128B89164850776530",
+    "shapeType": "ADM2",
+    "latitude": -8.693579807586167,
+    "longitude": 115.21912707103452
+  },
+  {
+    "shapeName": "Kota Depok",
+    "shapeID": "22746128B73481124779947",
+    "shapeType": "ADM2",
+    "latitude": -6.392568053711754,
+    "longitude": 106.82971439519655
+  },
+  {
+    "shapeName": "Kota Dumai",
+    "shapeID": "22746128B18875576502901",
+    "shapeType": "ADM2",
+    "latitude": 1.832088258955265,
+    "longitude": 101.31619359104484
+  },
+  {
+    "shapeName": "Kota Gorontalo",
+    "shapeID": "22746128B66202348563483",
+    "shapeType": "ADM2",
+    "latitude": 0.5340930710145363,
+    "longitude": 123.04705338695662
+  },
+  {
+    "shapeName": "Kota Gunungsitoli",
+    "shapeID": "22746128B74256869593133",
+    "shapeType": "ADM2",
+    "latitude": 1.2389178650943837,
+    "longitude": 97.5959632849057
+  },
+  {
+    "shapeName": "Kota Jakarta Barat",
+    "shapeID": "22746128B58252967349746",
+    "shapeType": "ADM2",
+    "latitude": -6.161314485714245,
+    "longitude": 106.75319265079366
+  },
+  {
+    "shapeName": "Kota Jakarta Pusat",
+    "shapeID": "22746128B21128962092426",
+    "shapeType": "ADM2",
+    "latitude": -6.179863577999958,
+    "longitude": 106.82987948400002
+  },
+  {
+    "shapeName": "Kota Jakarta Selatan",
+    "shapeID": "22746128B93686700937380",
+    "shapeType": "ADM2",
+    "latitude": -6.282083490816285,
+    "longitude": 106.81456418214293
+  },
+  {
+    "shapeName": "Kota Jakarta Timur",
+    "shapeID": "22746128B5353616278909",
+    "shapeType": "ADM2",
+    "latitude": -6.275396192523324,
+    "longitude": 106.88760244485987
+  },
+  {
+    "shapeName": "Kota Jakarta Utara",
+    "shapeID": "22746128B85966169947265",
+    "shapeType": "ADM2",
+    "latitude": -6.1180000820224345,
+    "longitude": 106.85924807865175
+  },
+  {
+    "shapeName": "Kota Jambi",
+    "shapeID": "22746128B99667418524197",
+    "shapeType": "ADM2",
+    "latitude": -1.6292240316455298,
+    "longitude": 103.61558953417725
+  },
+  {
+    "shapeName": "Kota Jayapura",
+    "shapeID": "22746128B85346986276333",
+    "shapeType": "ADM2",
+    "latitude": -2.5879507619511757,
+    "longitude": 140.73147014390253
+  },
+  {
+    "shapeName": "Kota Kediri",
+    "shapeID": "22746128B79918158306090",
+    "shapeType": "ADM2",
+    "latitude": -7.8304404784809725,
+    "longitude": 112.03223272658234
+  },
+  {
+    "shapeName": "Kota Kendari",
+    "shapeID": "22746128B80961359079738",
+    "shapeType": "ADM2",
+    "latitude": -3.9904115100839923,
+    "longitude": 122.5725576815127
+  },
+  {
+    "shapeName": "Kota Kotamobagu",
+    "shapeID": "22746128B93986330379000",
+    "shapeType": "ADM2",
+    "latitude": 0.7057342714286136,
+    "longitude": 124.31610086825397
+  },
+  {
+    "shapeName": "Kota Kupang",
+    "shapeID": "22746128B56606429525327",
+    "shapeType": "ADM2",
+    "latitude": -10.198385983168297,
+    "longitude": 123.61452009306933
+  },
+  {
+    "shapeName": "Kota Langsa",
+    "shapeID": "22746128B69628984727954",
+    "shapeType": "ADM2",
+    "latitude": 4.489077896598682,
+    "longitude": 97.99859770544228
+  },
+  {
+    "shapeName": "Kota Lhokseumawe",
+    "shapeID": "22746128B88010078110453",
+    "shapeType": "ADM2",
+    "latitude": 5.169472658536634,
+    "longitude": 97.11093976829274
+  },
+  {
+    "shapeName": "Kota Lubuklinggau",
+    "shapeID": "22746128B74548717001691",
+    "shapeType": "ADM2",
+    "latitude": -3.274984045801484,
+    "longitude": 102.87561300305353
+  },
+  {
+    "shapeName": "Kota Madiun",
+    "shapeID": "22746128B30166819315055",
+    "shapeType": "ADM2",
+    "latitude": -7.630720042253481,
+    "longitude": 111.52833203239443
+  },
+  {
+    "shapeName": "Kota Magelang",
+    "shapeID": "22746128B66141272433758",
+    "shapeType": "ADM2",
+    "latitude": -7.476313874999956,
+    "longitude": 110.22046728166671
+  },
+  {
+    "shapeName": "Kota Makassar",
+    "shapeID": "22746128B73854317646589",
+    "shapeType": "ADM2",
+    "latitude": -5.107462271803235,
+    "longitude": 119.40930607311483
+  },
+  {
+    "shapeName": "Kota Malang",
+    "shapeID": "22746128B9724218643478",
+    "shapeType": "ADM2",
+    "latitude": -7.9723433193547955,
+    "longitude": 112.6243986322581
+  },
+  {
+    "shapeName": "Kota Manado",
+    "shapeID": "22746128B83673204362612",
+    "shapeType": "ADM2",
+    "latitude": 1.5376360414893957,
+    "longitude": 124.82670184627659
+  },
+  {
+    "shapeName": "Kota Mataram",
+    "shapeID": "22746128B34810169298981",
+    "shapeType": "ADM2",
+    "latitude": -8.591576557142812,
+    "longitude": 116.12444693928578
+  },
+  {
+    "shapeName": "Kota Medan",
+    "shapeID": "22746128B40654739963843",
+    "shapeType": "ADM2",
+    "latitude": 3.6298689332192193,
+    "longitude": 98.66652410171243
+  },
+  {
+    "shapeName": "Kota Metro",
+    "shapeID": "22746128B64737377738458",
+    "shapeType": "ADM2",
+    "latitude": -5.115356032142815,
+    "longitude": 105.31264821875011
+  },
+  {
+    "shapeName": "Kota Mojokerto",
+    "shapeID": "22746128B53956788697299",
+    "shapeType": "ADM2",
+    "latitude": -7.473831210526278,
+    "longitude": 112.43624715789477
+  },
+  {
+    "shapeName": "Kota Padang",
+    "shapeID": "22746128B51925287869213",
+    "shapeType": "ADM2",
+    "latitude": -0.9795220050387153,
+    "longitude": 100.37541788798453
+  },
+  {
+    "shapeName": "Kota Padang Panjang",
+    "shapeID": "22746128B34977061629525",
+    "shapeType": "ADM2",
+    "latitude": -0.4684051599999548,
+    "longitude": 100.40282664666671
+  },
+  {
+    "shapeName": "Kota Padangsidimpuan",
+    "shapeID": "22746128B81378642761445",
+    "shapeType": "ADM2",
+    "latitude": 1.3844135583333796,
+    "longitude": 99.28421800625001
+  },
+  {
+    "shapeName": "Kota Pagar Alam",
+    "shapeID": "22746128B19740076763731",
+    "shapeType": "ADM2",
+    "latitude": -4.078862964848442,
+    "longitude": 103.30721736000011
+  },
+  {
+    "shapeName": "Kota Palangka Raya",
+    "shapeID": "22746128B5087893857208",
+    "shapeType": "ADM2",
+    "latitude": -1.9607209961038516,
+    "longitude": 113.73083657272731
+  },
+  {
+    "shapeName": "Kota Palembang",
+    "shapeID": "22746128B87825164980488",
+    "shapeType": "ADM2",
+    "latitude": -2.9701847390243468,
+    "longitude": 104.74645453089435
+  },
+  {
+    "shapeName": "Kota Palopo",
+    "shapeID": "22746128B54354608226928",
+    "shapeType": "ADM2",
+    "latitude": -2.972774044927493,
+    "longitude": 120.17018881376816
+  },
+  {
+    "shapeName": "Kota Palu",
+    "shapeID": "22746128B23229204425516",
+    "shapeType": "ADM2",
+    "latitude": -0.8012738238888465,
+    "longitude": 119.89161708111116
+  },
+  {
+    "shapeName": "Kota Pangkal Pinang",
+    "shapeID": "22746128B92282941938888",
+    "shapeType": "ADM2",
+    "latitude": -2.0987191819443987,
+    "longitude": 106.10773763055562
+  },
+  {
+    "shapeName": "Kota Parepare",
+    "shapeID": "22746128B37987509465042",
+    "shapeType": "ADM2",
+    "latitude": -4.0284998985293745,
+    "longitude": 119.66056420294123
+  },
+  {
+    "shapeName": "Kota Pariaman",
+    "shapeID": "22746128B94413576870843",
+    "shapeType": "ADM2",
+    "latitude": -0.6066664358973918,
+    "longitude": 100.13894850512828
+  },
+  {
+    "shapeName": "Kota Pasuruan",
+    "shapeID": "22746128B86769429493629",
+    "shapeType": "ADM2",
+    "latitude": -7.650814671186401,
+    "longitude": 112.90502808813564
+  },
+  {
+    "shapeName": "Kota Payakumbuh",
+    "shapeID": "22746128B75816793285642",
+    "shapeType": "ADM2",
+    "latitude": -0.22010387450976318,
+    "longitude": 100.63528710392158
+  },
+  {
+    "shapeName": "Kota Pekalongan",
+    "shapeID": "22746128B98453198956040",
+    "shapeType": "ADM2",
+    "latitude": -6.898493383333291,
+    "longitude": 109.67526551923085
+  },
+  {
+    "shapeName": "Kota Pekanbaru",
+    "shapeID": "22746128B3549150233660",
+    "shapeType": "ADM2",
+    "latitude": 0.5382920627907415,
+    "longitude": 101.45960974418612
+  },
+  {
+    "shapeName": "Kota Pematang Siantar",
+    "shapeID": "22746128B46755595316405",
+    "shapeType": "ADM2",
+    "latitude": 2.9596907816326987,
+    "longitude": 99.06144376938778
+  },
+  {
+    "shapeName": "Kota Pontianak",
+    "shapeID": "22746128B68403360613456",
+    "shapeType": "ADM2",
+    "latitude": -0.023116273214243154,
+    "longitude": 109.3371561482143
+  },
+  {
+    "shapeName": "Kota Prabumulih",
+    "shapeID": "22746128B13695709263199",
+    "shapeType": "ADM2",
+    "latitude": -3.470862015151471,
+    "longitude": 104.20829575454552
+  },
+  {
+    "shapeName": "Kota Probolinggo",
+    "shapeID": "22746128B48742890195125",
+    "shapeType": "ADM2",
+    "latitude": -7.768227734831422,
+    "longitude": 113.20936898202255
+  },
+  {
+    "shapeName": "Kota Sabang",
+    "shapeID": "22746128B78398648082643",
+    "shapeType": "ADM2",
+    "latitude": 5.863765825000037,
+    "longitude": 95.28417235294125
+  },
+  {
+    "shapeName": "Kota Salatiga",
+    "shapeID": "22746128B99456803569608",
+    "shapeType": "ADM2",
+    "latitude": -7.333975422535174,
+    "longitude": 110.50347904507048
+  },
+  {
+    "shapeName": "Kota Samarinda",
+    "shapeID": "22746128B87893249930832",
+    "shapeType": "ADM2",
+    "latitude": -0.5337372738805696,
+    "longitude": 117.20935490522389
+  },
+  {
+    "shapeName": "Kota Sawah Lunto",
+    "shapeID": "22746128B93370341632229",
+    "shapeType": "ADM2",
+    "latitude": -0.6609591608695208,
+    "longitude": 100.75812955978265
+  },
+  {
+    "shapeName": "Kota Semarang",
+    "shapeID": "22746128B5783483209745",
+    "shapeType": "ADM2",
+    "latitude": -7.018419978242643,
+    "longitude": 110.39375851673647
+  },
+  {
+    "shapeName": "Kota Serang",
+    "shapeID": "22746128B38845978082923",
+    "shapeType": "ADM2",
+    "latitude": -6.120714520987634,
+    "longitude": 106.16340311111112
+  },
+  {
+    "shapeName": "Kota Sibolga",
+    "shapeID": "22746128B47009036461165",
+    "shapeType": "ADM2",
+    "latitude": 1.7267036294118123,
+    "longitude": 98.78113664117653
+  },
+  {
+    "shapeName": "Kota Singkawang",
+    "shapeID": "22746128B18670307275317",
+    "shapeType": "ADM2",
+    "latitude": 0.9137008185567457,
+    "longitude": 109.06179108247426
+  },
+  {
+    "shapeName": "Kota Solok",
+    "shapeID": "22746128B30699524960223",
+    "shapeType": "ADM2",
+    "latitude": -0.7871184634614969,
+    "longitude": 100.6284079019231
+  },
+  {
+    "shapeName": "Kota Sorong",
+    "shapeID": "22746128B11366688050704",
+    "shapeType": "ADM2",
+    "latitude": -0.8799530534782182,
+    "longitude": 131.30291592782612
+  },
+  {
+    "shapeName": "Kota Subulussalam",
+    "shapeID": "22746128B20185680371825",
+    "shapeType": "ADM2",
+    "latitude": 2.7033134090909408,
+    "longitude": 97.96116080139866
+  },
+  {
+    "shapeName": "Kota Sukabumi",
+    "shapeID": "22746128B82825120895999",
+    "shapeType": "ADM2",
+    "latitude": -6.942630513636326,
+    "longitude": 106.91566584318186
+  },
+  {
+    "shapeName": "Kota Sungai Penuh",
+    "shapeID": "22746128B31453944142504",
+    "shapeType": "ADM2",
+    "latitude": -2.1118822416666223,
+    "longitude": 101.39069257500006
+  },
+  {
+    "shapeName": "Kota Surabaya",
+    "shapeID": "22746128B68603538827891",
+    "shapeType": "ADM2",
+    "latitude": -7.249002621827376,
+    "longitude": 112.70659877411168
+  },
+  {
+    "shapeName": "Kota Surakarta",
+    "shapeID": "22746128B33460906687482",
+    "shapeType": "ADM2",
+    "latitude": -7.556787784057926,
+    "longitude": 110.82191779275365
+  },
+  {
+    "shapeName": "Kota Tangerang",
+    "shapeID": "22746128B7613374511026",
+    "shapeType": "ADM2",
+    "latitude": -6.1941507992187095,
+    "longitude": 106.64937040781258
+  },
+  {
+    "shapeName": "Kota Tangerang Selatan",
+    "shapeID": "22746128B62533997811788",
+    "shapeType": "ADM2",
+    "latitude": -6.29318142248059,
+    "longitude": 106.71943380155041
+  },
+  {
+    "shapeName": "Kota Tanjung Balai",
+    "shapeID": "22746128B91306693093612",
+    "shapeType": "ADM2",
+    "latitude": 2.961284150000041,
+    "longitude": 99.79749235000007
+  },
+  {
+    "shapeName": "Kota Tanjung Pinang",
+    "shapeID": "22746128B73074683492420",
+    "shapeType": "ADM2",
+    "latitude": 0.911331026576621,
+    "longitude": 104.46361165270287
+  },
+  {
+    "shapeName": "Kota Tarakan",
+    "shapeID": "22746128B97983454808676",
+    "shapeType": "ADM2",
+    "latitude": 3.336436836363677,
+    "longitude": 117.59345089292934
+  },
+  {
+    "shapeName": "Kota Tasikmalaya",
+    "shapeID": "22746128B57000549481658",
+    "shapeType": "ADM2",
+    "latitude": -7.358001748663078,
+    "longitude": 108.23378265080211
+  },
+  {
+    "shapeName": "Kota Tebing Tinggi",
+    "shapeID": "22746128B29639616204280",
+    "shapeType": "ADM2",
+    "latitude": 3.328919710256455,
+    "longitude": 99.1540686205129
+  },
+  {
+    "shapeName": "Kota Tegal",
+    "shapeID": "22746128B85080883644541",
+    "shapeType": "ADM2",
+    "latitude": -6.876481811904719,
+    "longitude": 109.12022491428574
+  },
+  {
+    "shapeName": "Kota Ternate",
+    "shapeID": "22746128B36781349389855",
+    "shapeType": "ADM2",
+    "latitude": 0.8770266802469552,
+    "longitude": 126.95840442716059
+  },
+  {
+    "shapeName": "Kota Tidore Kepulauan",
+    "shapeID": "22746128B24002479708791",
+    "shapeType": "ADM2",
+    "latitude": 0.44826204478768683,
+    "longitude": 127.64442896023166
+  },
+  {
+    "shapeName": "Kota Tomohon",
+    "shapeID": "22746128B12552284418793",
+    "shapeType": "ADM2",
+    "latitude": 1.3327192950000106,
+    "longitude": 124.8222908033333
+  },
+  {
+    "shapeName": "Kota Tual",
+    "shapeID": "22746128B79752231805890",
+    "shapeType": "ADM2",
+    "latitude": -5.559142557268681,
+    "longitude": 132.4661325070485
+  },
+  {
+    "shapeName": "Kota Yogyakarta",
+    "shapeID": "22746128B9761158776103",
+    "shapeType": "ADM2",
+    "latitude": -7.809553368421014,
+    "longitude": 110.37755777763165
+  },
+  {
+    "shapeName": "Kotawaringin Barat",
+    "shapeID": "22746128B93777795819955",
+    "shapeType": "ADM2",
+    "latitude": -2.650961217647018,
+    "longitude": 111.71021177016814
+  },
+  {
+    "shapeName": "Kotawaringin Timur",
+    "shapeID": "22746128B94284518008212",
+    "shapeType": "ADM2",
+    "latitude": -2.3306730749999574,
+    "longitude": 112.77773640174425
+  },
+  {
+    "shapeName": "Kuantan Singingi",
+    "shapeID": "22746128B8182037452639",
+    "shapeType": "ADM2",
+    "latitude": -0.4817847046996952,
+    "longitude": 101.51128755248054
+  },
+  {
+    "shapeName": "Kubu Raya",
+    "shapeID": "22746128B69090577702614",
+    "shapeType": "ADM2",
+    "latitude": -0.45221420429307585,
+    "longitude": 109.48985475721685
+  },
+  {
+    "shapeName": "Kudus",
+    "shapeID": "22746128B61967707401144",
+    "shapeType": "ADM2",
+    "latitude": -6.793282794495373,
+    "longitude": 110.85114157018357
+  },
+  {
+    "shapeName": "Kulon Progo",
+    "shapeID": "22746128B43033686501526",
+    "shapeType": "ADM2",
+    "latitude": -7.764716144078908,
+    "longitude": 110.1750689513159
+  },
+  {
+    "shapeName": "Kuningan",
+    "shapeID": "22746128B44289127403365",
+    "shapeType": "ADM2",
+    "latitude": -7.001309258204287,
+    "longitude": 108.5734434860682
+  },
+  {
+    "shapeName": "Kupang",
+    "shapeID": "22746128B27765258797580",
+    "shapeType": "ADM2",
+    "latitude": -10.001778337861596,
+    "longitude": 123.75160051773584
+  },
+  {
+    "shapeName": "Kutai Barat",
+    "shapeID": "22746128B93368126922918",
+    "shapeType": "ADM2",
+    "latitude": -0.5116579871286737,
+    "longitude": 115.71222827095714
+  },
+  {
+    "shapeName": "Kutai Kartanegara",
+    "shapeID": "22746128B55621143702768",
+    "shapeType": "ADM2",
+    "latitude": -0.5249970521129448,
+    "longitude": 117.32340115317488
+  },
+  {
+    "shapeName": "Kutai Timur",
+    "shapeID": "22746128B75924443266043",
+    "shapeType": "ADM2",
+    "latitude": 0.864849323634773,
+    "longitude": 117.70773304619534
+  },
+  {
+    "shapeName": "Labuhan Batu",
+    "shapeID": "22746128B75065966155231",
+    "shapeType": "ADM2",
+    "latitude": 2.2755955202429585,
+    "longitude": 100.02105599311744
+  },
+  {
+    "shapeName": "Labuhan Batu Selatan",
+    "shapeID": "22746128B23995987640193",
+    "shapeType": "ADM2",
+    "latitude": 1.7520378018605076,
+    "longitude": 100.09878492558146
+  },
+  {
+    "shapeName": "Labuhan Batu Utara",
+    "shapeID": "22746128B7095356521044",
+    "shapeType": "ADM2",
+    "latitude": 2.409705082490314,
+    "longitude": 99.69308941750981
+  },
+  {
+    "shapeName": "Lahat",
+    "shapeID": "22746128B84107388414918",
+    "shapeType": "ADM2",
+    "latitude": -3.9113083276729146,
+    "longitude": 103.3402247832286
+  },
+  {
+    "shapeName": "Lamandau",
+    "shapeID": "22746128B62127435888540",
+    "shapeType": "ADM2",
+    "latitude": -1.7994089422459532,
+    "longitude": 111.18324241336894
+  },
+  {
+    "shapeName": "Lamongan",
+    "shapeID": "22746128B62762388436916",
+    "shapeType": "ADM2",
+    "latitude": -7.108602008149736,
+    "longitude": 112.28461744471373
+  },
+  {
+    "shapeName": "Lampung Barat",
+    "shapeID": "22746128B74428971192525",
+    "shapeType": "ADM2",
+    "latitude": -4.9594467310029975,
+    "longitude": 104.04601240729491
+  },
+  {
+    "shapeName": "Lampung Selatan",
+    "shapeID": "22746128B4401734887211",
+    "shapeType": "ADM2",
+    "latitude": -5.633008877247144,
+    "longitude": 105.52404905870794
+  },
+  {
+    "shapeName": "Lampung Tengah",
+    "shapeID": "22746128B57273633041967",
+    "shapeType": "ADM2",
+    "latitude": -4.853252528971926,
+    "longitude": 105.24893801054746
+  },
+  {
+    "shapeName": "Lampung Timur",
+    "shapeID": "22746128B49036162018248",
+    "shapeType": "ADM2",
+    "latitude": -5.166237808494163,
+    "longitude": 105.56900990521233
+  },
+  {
+    "shapeName": "Lampung Utara",
+    "shapeID": "22746128B16659764843822",
+    "shapeType": "ADM2",
+    "latitude": -4.821501776010741,
+    "longitude": 104.79075734420483
+  },
+  {
+    "shapeName": "Landak",
+    "shapeID": "22746128B55433427549228",
+    "shapeType": "ADM2",
+    "latitude": 0.4454864933210083,
+    "longitude": 109.73317905732857
+  },
+  {
+    "shapeName": "Langkat",
+    "shapeID": "22746128B45262154134474",
+    "shapeType": "ADM2",
+    "latitude": 3.8203314359568266,
+    "longitude": 98.26479425555564
+  },
+  {
+    "shapeName": "Lanny Jaya",
+    "shapeID": "22746128B21145180666794",
+    "shapeType": "ADM2",
+    "latitude": -3.9711653341771753,
+    "longitude": 138.27186991392415
+  },
+  {
+    "shapeName": "Lebak",
+    "shapeID": "22746128B73767534141998",
+    "shapeType": "ADM2",
+    "latitude": -6.640434911702082,
+    "longitude": 106.17891711400713
+  },
+  {
+    "shapeName": "Lebong",
+    "shapeID": "22746128B6914990948320",
+    "shapeType": "ADM2",
+    "latitude": -3.082549021266928,
+    "longitude": 102.24866715113127
+  },
+  {
+    "shapeName": "Lembata",
+    "shapeID": "22746128B62947944336237",
+    "shapeType": "ADM2",
+    "latitude": -8.361716292702667,
+    "longitude": 123.53642467405405
+  },
+  {
+    "shapeName": "Lima Puluh Kota",
+    "shapeID": "22746128B97954273808268",
+    "shapeType": "ADM2",
+    "latitude": -0.027361600516753317,
+    "longitude": 100.60673110335915
+  },
+  {
+    "shapeName": "Lingga",
+    "shapeID": "22746128B41866695352092",
+    "shapeType": "ADM2",
+    "latitude": -0.009716143433653597,
+    "longitude": 104.48864341758505
+  },
+  {
+    "shapeName": "Lombok Barat",
+    "shapeID": "22746128B38668827904245",
+    "shapeType": "ADM2",
+    "latitude": -8.718295034313691,
+    "longitude": 116.04149728643803
+  },
+  {
+    "shapeName": "Lombok Tengah",
+    "shapeID": "22746128B98880758851169",
+    "shapeType": "ADM2",
+    "latitude": -8.78066580493503,
+    "longitude": 116.29327961090917
+  },
+  {
+    "shapeName": "Lombok Timur",
+    "shapeID": "22746128B55307338459902",
+    "shapeType": "ADM2",
+    "latitude": -8.70790822268037,
+    "longitude": 116.52709485189003
+  },
+  {
+    "shapeName": "Lombok Utara",
+    "shapeID": "22746128B90862663975631",
+    "shapeType": "ADM2",
+    "latitude": -8.369988571153806,
+    "longitude": 116.22976040144243
+  },
+  {
+    "shapeName": "Lumajang",
+    "shapeID": "22746128B76070527787319",
+    "shapeType": "ADM2",
+    "latitude": -8.113715467330637,
+    "longitude": 113.14557439920326
+  },
+  {
+    "shapeName": "Luwu",
+    "shapeID": "22746128B94521952332625",
+    "shapeType": "ADM2",
+    "latitude": -3.1280120113970153,
+    "longitude": 120.20025850386031
+  },
+  {
+    "shapeName": "Luwu Timur",
+    "shapeID": "22746128B1110744719374",
+    "shapeType": "ADM2",
+    "latitude": -2.6179424292870563,
+    "longitude": 121.01906298631982
+  },
+  {
+    "shapeName": "Luwu Utara",
+    "shapeID": "22746128B26232805086319",
+    "shapeType": "ADM2",
+    "latitude": -2.506509505985875,
+    "longitude": 120.23708493186616
+  },
+  {
+    "shapeName": "Madiun",
+    "shapeID": "22746128B56340035124164",
+    "shapeType": "ADM2",
+    "latitude": -7.625527843010715,
+    "longitude": 111.61242424569896
+  },
+  {
+    "shapeName": "Magelang",
+    "shapeID": "22746128B50341569898666",
+    "shapeType": "ADM2",
+    "latitude": -7.500206743648157,
+    "longitude": 110.23636950521174
+  },
+  {
+    "shapeName": "Magetan",
+    "shapeID": "22746128B43524249433579",
+    "shapeType": "ADM2",
+    "latitude": -7.652731074311886,
+    "longitude": 111.36611373256879
+  },
+  {
+    "shapeName": "Mahakam Hulu",
+    "shapeID": "22746128B30313932055345",
+    "shapeType": "ADM2",
+    "latitude": 0.7453212162222634,
+    "longitude": 114.72172997888902
+  },
+  {
+    "shapeName": "Majalengka",
+    "shapeID": "22746128B87647472826371",
+    "shapeType": "ADM2",
+    "latitude": -6.7684527587379515,
+    "longitude": 108.20819781353725
+  },
+  {
+    "shapeName": "Majene",
+    "shapeID": "22746128B56869239776422",
+    "shapeType": "ADM2",
+    "latitude": -3.2138816573476334,
+    "longitude": 118.91507050035851
+  },
+  {
+    "shapeName": "Malaka",
+    "shapeID": "22746128B56140662064287",
+    "shapeType": "ADM2",
+    "latitude": -9.50532258124996,
+    "longitude": 124.84819484250008
+  },
+  {
+    "shapeName": "Malang",
+    "shapeID": "22746128B8866265958554",
+    "shapeType": "ADM2",
+    "latitude": -8.152231376544592,
+    "longitude": 112.63546433855836
+  },
+  {
+    "shapeName": "Malinau",
+    "shapeID": "22746128B54632748429230",
+    "shapeType": "ADM2",
+    "latitude": 2.5450762791755945,
+    "longitude": 115.50953088230264
+  },
+  {
+    "shapeName": "Maluku Barat Daya",
+    "shapeID": "22746128B88480653802061",
+    "shapeType": "ADM2",
+    "latitude": -7.740576259374981,
+    "longitude": 127.78298421861419
+  },
+  {
+    "shapeName": "Maluku Tengah",
+    "shapeID": "22746128B41463091507887",
+    "shapeType": "ADM2",
+    "latitude": -3.4343635246902946,
+    "longitude": 129.02705105730823
+  },
+  {
+    "shapeName": "Maluku Tenggara",
+    "shapeID": "22746128B6545713511337",
+    "shapeType": "ADM2",
+    "latitude": -5.743222706804341,
+    "longitude": 132.78071563851773
+  },
+  {
+    "shapeName": "Maluku Tenggara Barat",
+    "shapeID": "22746128B78864950196660",
+    "shapeType": "ADM2",
+    "latitude": -7.517648270504406,
+    "longitude": 131.30239010905646
+  },
+  {
+    "shapeName": "Mamasa",
+    "shapeID": "22746128B65559589019405",
+    "shapeType": "ADM2",
+    "latitude": -2.9700385708708397,
+    "longitude": 119.32167282792797
+  },
+  {
+    "shapeName": "Mamberamo Raya",
+    "shapeID": "22746128B39960960221771",
+    "shapeType": "ADM2",
+    "latitude": -2.4091473732835404,
+    "longitude": 137.80323497231333
+  },
+  {
+    "shapeName": "Mamberamo Tengah",
+    "shapeID": "22746128B2349164731379",
+    "shapeType": "ADM2",
+    "latitude": -3.5892189028368384,
+    "longitude": 139.08933682765965
+  },
+  {
+    "shapeName": "Mamuju",
+    "shapeID": "22746128B65468173429736",
+    "shapeType": "ADM2",
+    "latitude": -2.460045797564431,
+    "longitude": 119.0252380073067
+  },
+  {
+    "shapeName": "Mamuju Tengah",
+    "shapeID": "22746128B49136567123703",
+    "shapeType": "ADM2",
+    "latitude": -2.0249570014952814,
+    "longitude": 119.44029705401873
+  },
+  {
+    "shapeName": "Mamuju Utara",
+    "shapeID": "22746128B5634485200629",
+    "shapeType": "ADM2",
+    "latitude": -1.434791026721268,
+    "longitude": 119.5147330513115
+  },
+  {
+    "shapeName": "Mandailing Natal",
+    "shapeID": "22746128B80893459197040",
+    "shapeType": "ADM2",
+    "latitude": 0.7949627834739037,
+    "longitude": 99.32192284199009
+  },
+  {
+    "shapeName": "Manggarai",
+    "shapeID": "22746128B41361424069199",
+    "shapeType": "ADM2",
+    "latitude": -8.571225472559325,
+    "longitude": 120.3882828290237
+  },
+  {
+    "shapeName": "Manggarai Barat",
+    "shapeID": "22746128B27819456459641",
+    "shapeType": "ADM2",
+    "latitude": -8.598449991003253,
+    "longitude": 119.75687848393763
+  },
+  {
+    "shapeName": "Manggarai Timur",
+    "shapeID": "22746128B57997288446056",
+    "shapeType": "ADM2",
+    "latitude": -8.56084050893296,
+    "longitude": 120.71349082431759
+  },
+  {
+    "shapeName": "Manokwari",
+    "shapeID": "22746128B58641314112332",
+    "shapeType": "ADM2",
+    "latitude": -0.9188260840255222,
+    "longitude": 133.9366757616615
+  },
+  {
+    "shapeName": "Manokwari Selatan",
+    "shapeID": "22746128B90822416479405",
+    "shapeType": "ADM2",
+    "latitude": -1.5089343458064346,
+    "longitude": 134.04665316645162
+  },
+  {
+    "shapeName": "Mappi",
+    "shapeID": "22746128B63262525003276",
+    "shapeType": "ADM2",
+    "latitude": -6.794928627272685,
+    "longitude": 138.81652581125542
+  },
+  {
+    "shapeName": "Maros",
+    "shapeID": "22746128B73491405172020",
+    "shapeType": "ADM2",
+    "latitude": -4.9875073433139105,
+    "longitude": 119.70633695552321
+  },
+  {
+    "shapeName": "Maybrat",
+    "shapeID": "22746128B44891092584435",
+    "shapeType": "ADM2",
+    "latitude": -1.3349227870588032,
+    "longitude": 132.31521536588232
+  },
+  {
+    "shapeName": "Melawi",
+    "shapeID": "22746128B3341090541732",
+    "shapeType": "ADM2",
+    "latitude": -0.6733704186046097,
+    "longitude": 111.75740671937996
+  },
+  {
+    "shapeName": "Mempawah",
+    "shapeID": "22746128B13218426778114",
+    "shapeType": "ADM2",
+    "latitude": 0.428495932677209,
+    "longitude": 109.09520523858274
+  },
+  {
+    "shapeName": "Merangin",
+    "shapeID": "22746128B71403115718321",
+    "shapeType": "ADM2",
+    "latitude": -2.173620229385924,
+    "longitude": 102.00319327258772
+  },
+  {
+    "shapeName": "Merauke",
+    "shapeID": "22746128B65756496772256",
+    "shapeType": "ADM2",
+    "latitude": -7.92076421315358,
+    "longitude": 139.01945192253385
+  },
+  {
+    "shapeName": "Mesuji",
+    "shapeID": "22746128B5734020897269",
+    "shapeType": "ADM2",
+    "latitude": -4.027986426765756,
+    "longitude": 105.37176787732348
+  },
+  {
+    "shapeName": "Mimika",
+    "shapeID": "22746128B99426029309213",
+    "shapeType": "ADM2",
+    "latitude": -4.646122112042638,
+    "longitude": 136.4565488876523
+  },
+  {
+    "shapeName": "Minahasa",
+    "shapeID": "22746128B63895215577583",
+    "shapeType": "ADM2",
+    "latitude": 1.2973291629834316,
+    "longitude": 124.82823448093919
+  },
+  {
+    "shapeName": "Minahasa Selatan",
+    "shapeID": "22746128B98133955192071",
+    "shapeType": "ADM2",
+    "latitude": 1.0731885647643071,
+    "longitude": 124.50095876823818
+  },
+  {
+    "shapeName": "Minahasa Tenggara",
+    "shapeID": "22746128B38105670760260",
+    "shapeType": "ADM2",
+    "latitude": 0.9681884281139203,
+    "longitude": 124.72172459395023
+  },
+  {
+    "shapeName": "Minahasa Utara",
+    "shapeID": "22746128B90516172699691",
+    "shapeType": "ADM2",
+    "latitude": 1.6469827180064704,
+    "longitude": 124.99867124614165
+  },
+  {
+    "shapeName": "Mojokerto",
+    "shapeID": "22746128B795310620233",
+    "shapeType": "ADM2",
+    "latitude": -7.499169156249975,
+    "longitude": 112.4572709347222
+  },
+  {
+    "shapeName": "Morowali",
+    "shapeID": "22746128B26432903559283",
+    "shapeType": "ADM2",
+    "latitude": -2.987273075356759,
+    "longitude": 122.24372732159853
+  },
+  {
+    "shapeName": "Morowali Utara",
+    "shapeID": "22746128B96188894812390",
+    "shapeType": "ADM2",
+    "latitude": -1.8410052592402018,
+    "longitude": 121.50070165985625
+  },
+  {
+    "shapeName": "Muara Enim",
+    "shapeID": "22746128B32446581498560",
+    "shapeType": "ADM2",
+    "latitude": -3.6025241433436115,
+    "longitude": 104.05119985773997
+  },
+  {
+    "shapeName": "Muaro Jambi",
+    "shapeID": "22746128B29274337249674",
+    "shapeType": "ADM2",
+    "latitude": -1.6326054715568423,
+    "longitude": 103.5430744619761
+  },
+  {
+    "shapeName": "Mukomuko",
+    "shapeID": "22746128B39825953538573",
+    "shapeType": "ADM2",
+    "latitude": -2.706842300543436,
+    "longitude": 101.55797123804354
+  },
+  {
+    "shapeName": "Muna",
+    "shapeID": "22746128B70372019871554",
+    "shapeType": "ADM2",
+    "latitude": -4.863908109248513,
+    "longitude": 122.6658367148846
+  },
+  {
+    "shapeName": "Muna Barat",
+    "shapeID": "22746128B23924471266348",
+    "shapeType": "ADM2",
+    "latitude": -4.7468126475948935,
+    "longitude": 122.3792965384811
+  },
+  {
+    "shapeName": "Murung Raya",
+    "shapeID": "22746128B54866510421393",
+    "shapeType": "ADM2",
+    "latitude": 0.23971006579382473,
+    "longitude": 114.2856243400984
+  },
+  {
+    "shapeName": "Musi Banyuasin",
+    "shapeID": "22746128B84212736337013",
+    "shapeType": "ADM2",
+    "latitude": -2.5355412291261725,
+    "longitude": 103.62789442563115
+  },
+  {
+    "shapeName": "Musi Rawas",
+    "shapeID": "22746128B56500782521831",
+    "shapeType": "ADM2",
+    "latitude": -3.185075779800461,
+    "longitude": 103.01661759900256
+  },
+  {
+    "shapeName": "Musi Rawas Utara",
+    "shapeID": "22746128B26074251210079",
+    "shapeType": "ADM2",
+    "latitude": -2.713810046919389,
+    "longitude": 102.72397359526077
+  },
+  {
+    "shapeName": "Nabire",
+    "shapeID": "22746128B29146649309875",
+    "shapeType": "ADM2",
+    "latitude": -3.0687451115417335,
+    "longitude": 135.51350005176602
+  },
+  {
+    "shapeName": "Nagan Raya",
+    "shapeID": "22746128B8237986094994",
+    "shapeType": "ADM2",
+    "latitude": 4.185241278389875,
+    "longitude": 96.51302078728816
+  },
+  {
+    "shapeName": "Nagekeo",
+    "shapeID": "22746128B97494513966687",
+    "shapeType": "ADM2",
+    "latitude": -8.69152411327157,
+    "longitude": 121.27654506604948
+  },
+  {
+    "shapeName": "Natuna",
+    "shapeID": "22746128B6637644559706",
+    "shapeType": "ADM2",
+    "latitude": 3.5047465835667357,
+    "longitude": 108.38032875121607
+  },
+  {
+    "shapeName": "Nduga",
+    "shapeID": "22746128B7624163664321",
+    "shapeType": "ADM2",
+    "latitude": -4.38515213999996,
+    "longitude": 138.33222239733337
+  },
+  {
+    "shapeName": "Ngada",
+    "shapeID": "22746128B33181363193361",
+    "shapeType": "ADM2",
+    "latitude": -8.637533789069728,
+    "longitude": 120.99382050651165
+  },
+  {
+    "shapeName": "Nganjuk",
+    "shapeID": "22746128B46559606025688",
+    "shapeType": "ADM2",
+    "latitude": -7.582134742586708,
+    "longitude": 111.95368147949536
+  },
+  {
+    "shapeName": "Ngawi",
+    "shapeID": "22746128B17210029520680",
+    "shapeType": "ADM2",
+    "latitude": -7.427722646190431,
+    "longitude": 111.34601007833345
+  },
+  {
+    "shapeName": "Nias",
+    "shapeID": "22746128B114560941686",
+    "shapeType": "ADM2",
+    "latitude": 1.0744516028037776,
+    "longitude": 97.70542722757018
+  },
+  {
+    "shapeName": "Nias Barat",
+    "shapeID": "22746128B23007358779926",
+    "shapeType": "ADM2",
+    "latitude": 0.9485240586854865,
+    "longitude": 97.44214181971842
+  },
+  {
+    "shapeName": "Nias Selatan",
+    "shapeID": "22746128B70987165350034",
+    "shapeType": "ADM2",
+    "latitude": 0.025466169699349128,
+    "longitude": 98.31116315281419
+  },
+  {
+    "shapeName": "Nias Utara",
+    "shapeID": "22746128B50601239773602",
+    "shapeType": "ADM2",
+    "latitude": 1.3528579996988375,
+    "longitude": 97.26753693614472
+  },
+  {
+    "shapeName": "Nunukan",
+    "shapeID": "22746128B24707766174966",
+    "shapeType": "ADM2",
+    "latitude": 4.0116721969128735,
+    "longitude": 116.91596017566603
+  },
+  {
+    "shapeName": "Ogan Ilir",
+    "shapeID": "22746128B50783491652131",
+    "shapeType": "ADM2",
+    "latitude": -3.437096373273234,
+    "longitude": 104.58650946156156
+  },
+  {
+    "shapeName": "Ogan Komering Ilir",
+    "shapeID": "22746128B6554957987252",
+    "shapeType": "ADM2",
+    "latitude": -3.522503336893162,
+    "longitude": 105.21605315327656
+  },
+  {
+    "shapeName": "Ogan Komering Ulu",
+    "shapeID": "22746128B55651065226017",
+    "shapeType": "ADM2",
+    "latitude": -4.07416488095234,
+    "longitude": 104.17828599428566
+  },
+  {
+    "shapeName": "Ogan Komering Ulu Selatan",
+    "shapeID": "22746128B38683854456350",
+    "shapeType": "ADM2",
+    "latitude": -4.660967309756056,
+    "longitude": 103.9801198604336
+  },
+  {
+    "shapeName": "Ogan Komering Ulu Timur",
+    "shapeID": "22746128B29719145941035",
+    "shapeType": "ADM2",
+    "latitude": -4.129650483943042,
+    "longitude": 104.53104247500012
+  },
+  {
+    "shapeName": "Pacitan",
+    "shapeID": "22746128B46377021687256",
+    "shapeType": "ADM2",
+    "latitude": -8.162702504399977,
+    "longitude": 111.18367759300008
+  },
+  {
+    "shapeName": "Padang Lawas",
+    "shapeID": "22746128B18337582481574",
+    "shapeType": "ADM2",
+    "latitude": 1.1178160807818007,
+    "longitude": 99.87025951107492
+  },
+  {
+    "shapeName": "Padang Lawas Utara",
+    "shapeID": "22746128B6160471216736",
+    "shapeType": "ADM2",
+    "latitude": 1.6159841037118334,
+    "longitude": 99.75503804344977
+  },
+  {
+    "shapeName": "Padang Pariaman",
+    "shapeID": "22746128B3683779023382",
+    "shapeType": "ADM2",
+    "latitude": -0.5503241437787602,
+    "longitude": 100.22031007788024
+  },
+  {
+    "shapeName": "Pakpak Bharat",
+    "shapeID": "22746128B12751431115951",
+    "shapeType": "ADM2",
+    "latitude": 2.5470980834711114,
+    "longitude": 98.25937777603309
+  },
+  {
+    "shapeName": "Pamekasan",
+    "shapeID": "22746128B37926964335633",
+    "shapeType": "ADM2",
+    "latitude": -7.081983877056228,
+    "longitude": 113.49909603722946
+  },
+  {
+    "shapeName": "Pandeglang",
+    "shapeID": "22746128B79755996911998",
+    "shapeType": "ADM2",
+    "latitude": -6.624390084775048,
+    "longitude": 105.62891337312588
+  },
+  {
+    "shapeName": "Pangandaran",
+    "shapeID": "22746128B59857718615465",
+    "shapeType": "ADM2",
+    "latitude": -7.630973950368529,
+    "longitude": 108.52019986314498
+  },
+  {
+    "shapeName": "Pangkajene Dan Kepulauan",
+    "shapeID": "22746128B84288456023840",
+    "shapeType": "ADM2",
+    "latitude": -5.894715364004487,
+    "longitude": 118.75104080674924
+  },
+  {
+    "shapeName": "Paniai",
+    "shapeID": "22746128B72382312298600",
+    "shapeType": "ADM2",
+    "latitude": -3.7897476266666237,
+    "longitude": 136.35773770833336
+  },
+  {
+    "shapeName": "Parigi Moutong",
+    "shapeID": "22746128B5854376167403",
+    "shapeType": "ADM2",
+    "latitude": -0.08400384825733163,
+    "longitude": 120.40705484378928
+  },
+  {
+    "shapeName": "Pasaman",
+    "shapeID": "22746128B82897046958257",
+    "shapeType": "ADM2",
+    "latitude": 0.36914743458449284,
+    "longitude": 100.0415779420912
+  },
+  {
+    "shapeName": "Pasaman Barat",
+    "shapeID": "22746128B95220206981522",
+    "shapeType": "ADM2",
+    "latitude": 0.20749658024695522,
+    "longitude": 99.63483306913585
+  },
+  {
+    "shapeName": "Paser",
+    "shapeID": "22746128B17746000623405",
+    "shapeType": "ADM2",
+    "latitude": -1.8164938055845998,
+    "longitude": 116.02632899458631
+  },
+  {
+    "shapeName": "Pasuruan",
+    "shapeID": "22746128B81373906315979",
+    "shapeType": "ADM2",
+    "latitude": -7.723294557419328,
+    "longitude": 112.85112082483876
+  },
+  {
+    "shapeName": "Pati",
+    "shapeID": "22746128B37789509782125",
+    "shapeType": "ADM2",
+    "latitude": -6.774937756249954,
+    "longitude": 111.04573321081736
+  },
+  {
+    "shapeName": "Pegunungan Arfak",
+    "shapeID": "22746128B30560862468368",
+    "shapeType": "ADM2",
+    "latitude": -1.1610908385184784,
+    "longitude": 133.8374175614816
+  },
+  {
+    "shapeName": "Pegunungan Bintang",
+    "shapeID": "22746128B40289792856685",
+    "shapeType": "ADM2",
+    "latitude": -4.036566637054586,
+    "longitude": 140.3901435589074
+  },
+  {
+    "shapeName": "Pekalongan",
+    "shapeID": "22746128B43405552393366",
+    "shapeType": "ADM2",
+    "latitude": -7.025941577300569,
+    "longitude": 109.6280385236198
+  },
+  {
+    "shapeName": "Pelalawan",
+    "shapeID": "22746128B44055596539945",
+    "shapeType": "ADM2",
+    "latitude": 0.2819996000000427,
+    "longitude": 102.4490473635629
+  },
+  {
+    "shapeName": "Pemalang",
+    "shapeID": "22746128B43122306499336",
+    "shapeType": "ADM2",
+    "latitude": -7.020927008616154,
+    "longitude": 109.40596145143608
+  },
+  {
+    "shapeName": "Penajam Paser Utara",
+    "shapeID": "22746128B96540112180119",
+    "shapeType": "ADM2",
+    "latitude": -1.1701290693877109,
+    "longitude": 116.65453728571433
+  },
+  {
+    "shapeName": "Penukal Abab Lematang Ilir",
+    "shapeID": "22746128B2393542990028",
+    "shapeType": "ADM2",
+    "latitude": -3.236509068095198,
+    "longitude": 103.9551597157144
+  },
+  {
+    "shapeName": "Pesawaran",
+    "shapeID": "22746128B94381737455512",
+    "shapeType": "ADM2",
+    "latitude": -5.568820414798814,
+    "longitude": 105.18399368635068
+  },
+  {
+    "shapeName": "Pesisir Barat",
+    "shapeID": "22746128B87029922352837",
+    "shapeType": "ADM2",
+    "latitude": -5.372147382070668,
+    "longitude": 104.16791909772729
+  },
+  {
+    "shapeName": "Pesisir Selatan",
+    "shapeID": "22746128B35993392452682",
+    "shapeType": "ADM2",
+    "latitude": -1.4364946442776314,
+    "longitude": 100.65311263508444
+  },
+  {
+    "shapeName": "Pidie",
+    "shapeID": "22746128B35853530005037",
+    "shapeType": "ADM2",
+    "latitude": 5.146214178839612,
+    "longitude": 95.99375585460758
+  },
+  {
+    "shapeName": "Pidie Jaya",
+    "shapeID": "22746128B77747107542596",
+    "shapeType": "ADM2",
+    "latitude": 5.112146126219538,
+    "longitude": 96.2295090493903
+  },
+  {
+    "shapeName": "Pinrang",
+    "shapeID": "22746128B71783882222616",
+    "shapeType": "ADM2",
+    "latitude": -3.61945052071193,
+    "longitude": 119.5879995582525
+  },
+  {
+    "shapeName": "Pohuwato",
+    "shapeID": "22746128B36723886609479",
+    "shapeType": "ADM2",
+    "latitude": 0.5915352982759058,
+    "longitude": 121.62032116594841
+  },
+  {
+    "shapeName": "Polewali Mandar",
+    "shapeID": "22746128B50766380968306",
+    "shapeType": "ADM2",
+    "latitude": -3.3544397806227995,
+    "longitude": 119.2405651086506
+  },
+  {
+    "shapeName": "Ponorogo",
+    "shapeID": "22746128B39928875112308",
+    "shapeType": "ADM2",
+    "latitude": -7.958803131818137,
+    "longitude": 111.52084821789776
+  },
+  {
+    "shapeName": "Poso",
+    "shapeID": "22746128B71918225941207",
+    "shapeType": "ADM2",
+    "latitude": -1.5575301739495384,
+    "longitude": 120.50100983088238
+  },
+  {
+    "shapeName": "Pringsewu",
+    "shapeID": "22746128B80903663444835",
+    "shapeType": "ADM2",
+    "latitude": -5.3571727404761464,
+    "longitude": 104.92367261761912
+  },
+  {
+    "shapeName": "Probolinggo",
+    "shapeID": "22746128B57336658570108",
+    "shapeType": "ADM2",
+    "latitude": -7.8550763509049455,
+    "longitude": 113.2998961809954
+  },
+  {
+    "shapeName": "Pulang Pisau",
+    "shapeID": "22746128B75083695068268",
+    "shapeType": "ADM2",
+    "latitude": -2.7858105833332907,
+    "longitude": 113.91208292701154
+  },
+  {
+    "shapeName": "Pulau Morotai",
+    "shapeID": "22746128B67952855762127",
+    "shapeType": "ADM2",
+    "latitude": 2.2949243179435905,
+    "longitude": 128.3724507022178
+  },
+  {
+    "shapeName": "Pulau Taliabu",
+    "shapeID": "22746128B98781354669228",
+    "shapeType": "ADM2",
+    "latitude": -1.8121788107367998,
+    "longitude": 124.70804917189484
+  },
+  {
+    "shapeName": "Puncak",
+    "shapeID": "22746128B1222572676249",
+    "shapeType": "ADM2",
+    "latitude": -3.2980606359183247,
+    "longitude": 137.31083531265307
+  },
+  {
+    "shapeName": "Puncak Jaya",
+    "shapeID": "22746128B50358350022934",
+    "shapeType": "ADM2",
+    "latitude": -3.461146428703663,
+    "longitude": 137.9258262342593
+  },
+  {
+    "shapeName": "Purbalingga",
+    "shapeID": "22746128B86887436396051",
+    "shapeType": "ADM2",
+    "latitude": -7.3601295967871065,
+    "longitude": 109.4217289574298
+  },
+  {
+    "shapeName": "Purwakarta",
+    "shapeID": "22746128B43709097539954",
+    "shapeType": "ADM2",
+    "latitude": -6.619318762130136,
+    "longitude": 107.45197354644978
+  },
+  {
+    "shapeName": "Purworejo",
+    "shapeID": "22746128B47019757463267",
+    "shapeType": "ADM2",
+    "latitude": -7.647264012863028,
+    "longitude": 109.96564630124487
+  },
+  {
+    "shapeName": "Raja Ampat",
+    "shapeID": "22746128B90221566890304",
+    "shapeType": "ADM2",
+    "latitude": -0.8548252714110425,
+    "longitude": 130.45756988175876
+  },
+  {
+    "shapeName": "Rejang Lebong",
+    "shapeID": "22746128B47928451075254",
+    "shapeType": "ADM2",
+    "latitude": -3.407680616599145,
+    "longitude": 102.71978351902837
+  },
+  {
+    "shapeName": "Rembang",
+    "shapeID": "22746128B94981829239468",
+    "shapeType": "ADM2",
+    "latitude": -6.785246374193516,
+    "longitude": 111.4042679351613
+  },
+  {
+    "shapeName": "Rokan Hilir",
+    "shapeID": "22746128B71759944188311",
+    "shapeType": "ADM2",
+    "latitude": 1.9766206555781347,
+    "longitude": 100.65513441318465
+  },
+  {
+    "shapeName": "Rokan Hulu",
+    "shapeID": "22746128B35208725321264",
+    "shapeType": "ADM2",
+    "latitude": 0.8740083340153857,
+    "longitude": 100.4337937035807
+  },
+  {
+    "shapeName": "Rote Ndao",
+    "shapeID": "22746128B61006797400672",
+    "shapeType": "ADM2",
+    "latitude": -10.71066722536133,
+    "longitude": 123.14908450657052
+  },
+  {
+    "shapeName": "Sabu Raijua",
+    "shapeID": "22746128B67076907647447",
+    "shapeType": "ADM2",
+    "latitude": -10.574240928124954,
+    "longitude": 121.77353680468754
+  },
+  {
+    "shapeName": "Sambas",
+    "shapeID": "22746128B87993072617697",
+    "shapeType": "ADM2",
+    "latitude": 1.508784541247045,
+    "longitude": 109.42555386714635
+  },
+  {
+    "shapeName": "Samosir",
+    "shapeID": "22746128B81816662901100",
+    "shapeType": "ADM2",
+    "latitude": 2.5517397404358775,
+    "longitude": 98.73614954891046
+  },
+  {
+    "shapeName": "Sampang",
+    "shapeID": "22746128B2542813239591",
+    "shapeType": "ADM2",
+    "latitude": -7.069154109090864,
+    "longitude": 113.2415590698053
+  },
+  {
+    "shapeName": "Sanggau",
+    "shapeID": "22746128B74989070523542",
+    "shapeType": "ADM2",
+    "latitude": 0.43334616907735024,
+    "longitude": 110.36965648890275
+  },
+  {
+    "shapeName": "Sarmi",
+    "shapeID": "22746128B27261093121909",
+    "shapeType": "ADM2",
+    "latitude": -2.569223569117607,
+    "longitude": 138.95152450696074
+  },
+  {
+    "shapeName": "Sarolangun",
+    "shapeID": "22746128B44731308508060",
+    "shapeType": "ADM2",
+    "latitude": -2.3406093660098093,
+    "longitude": 102.6569608490148
+  },
+  {
+    "shapeName": "Sekadau",
+    "shapeID": "22746128B16160803458764",
+    "shapeType": "ADM2",
+    "latitude": 0.05220345275085196,
+    "longitude": 111.00245527702265
+  },
+  {
+    "shapeName": "Seluma",
+    "shapeID": "22746128B87861638449066",
+    "shapeType": "ADM2",
+    "latitude": -4.01038888446598,
+    "longitude": 102.68289639271848
+  },
+  {
+    "shapeName": "Semarang",
+    "shapeID": "22746128B46914217687538",
+    "shapeType": "ADM2",
+    "latitude": -7.299429614176203,
+    "longitude": 110.4994986053641
+  },
+  {
+    "shapeName": "Seram Bagian Barat",
+    "shapeID": "22746128B92585048181027",
+    "shapeType": "ADM2",
+    "latitude": -3.072675446292734,
+    "longitude": 128.09557745570356
+  },
+  {
+    "shapeName": "Seram Bagian Timur",
+    "shapeID": "22746128B38603798591380",
+    "shapeType": "ADM2",
+    "latitude": -3.78703732091149,
+    "longitude": 130.87144857010713
+  },
+  {
+    "shapeName": "Serang",
+    "shapeID": "22746128B3242616561013",
+    "shapeType": "ADM2",
+    "latitude": -6.113106755915448,
+    "longitude": 106.15723575507049
+  },
+  {
+    "shapeName": "Serdang Bedagai",
+    "shapeID": "22746128B52277249956552",
+    "shapeType": "ADM2",
+    "latitude": 3.338371109593065,
+    "longitude": 99.05138575232553
+  },
+  {
+    "shapeName": "Seruyan",
+    "shapeID": "22746128B10156150641021",
+    "shapeType": "ADM2",
+    "latitude": -1.9486195544261877,
+    "longitude": 112.05348151704932
+  },
+  {
+    "shapeName": "Siak",
+    "shapeID": "22746128B48036345674071",
+    "shapeType": "ADM2",
+    "latitude": 0.7794024681661335,
+    "longitude": 101.83178496124569
+  },
+  {
+    "shapeName": "Siau Tagulandang Biaro",
+    "shapeID": "22746128B24839603722983",
+    "shapeType": "ADM2",
+    "latitude": 2.4137593657051695,
+    "longitude": 125.39414349615396
+  },
+  {
+    "shapeName": "Sidenreng Rappang",
+    "shapeID": "22746128B89870320898123",
+    "shapeType": "ADM2",
+    "latitude": -3.8143796979057205,
+    "longitude": 119.964887095288
+  },
+  {
+    "shapeName": "Sidoarjo",
+    "shapeID": "22746128B7257810863239",
+    "shapeType": "ADM2",
+    "latitude": -7.460037326942972,
+    "longitude": 112.71538436943003
+  },
+  {
+    "shapeName": "Sigi",
+    "shapeID": "22746128B27078250924142",
+    "shapeType": "ADM2",
+    "latitude": -1.3971027559545899,
+    "longitude": 119.98526335689976
+  },
+  {
+    "shapeName": "Sijunjung",
+    "shapeID": "22746128B5140836931072",
+    "shapeType": "ADM2",
+    "latitude": -0.691638746540836,
+    "longitude": 101.1019929163522
+  },
+  {
+    "shapeName": "Sikka",
+    "shapeID": "22746128B25889265457696",
+    "shapeType": "ADM2",
+    "latitude": -8.546878665202073,
+    "longitude": 122.28821267521963
+  },
+  {
+    "shapeName": "Simalungun",
+    "shapeID": "22746128B18371020983209",
+    "shapeType": "ADM2",
+    "latitude": 2.9965504177264295,
+    "longitude": 99.03813356030834
+  },
+  {
+    "shapeName": "Simeulue",
+    "shapeID": "22746128B32199422560180",
+    "shapeType": "ADM2",
+    "latitude": 2.6313505778019257,
+    "longitude": 96.1171878284889
+  },
+  {
+    "shapeName": "Sinjai",
+    "shapeID": "22746128B62270956264702",
+    "shapeType": "ADM2",
+    "latitude": -5.191335249854188,
+    "longitude": 120.17302930495626
+  },
+  {
+    "shapeName": "Sintang",
+    "shapeID": "22746128B74245273608062",
+    "shapeType": "ADM2",
+    "latitude": 0.1565061079558439,
+    "longitude": 111.95859946596694
+  },
+  {
+    "shapeName": "Situbondo",
+    "shapeID": "22746128B65817775308435",
+    "shapeType": "ADM2",
+    "latitude": -7.808438415294081,
+    "longitude": 114.01215671858843
+  },
+  {
+    "shapeName": "Sleman",
+    "shapeID": "22746128B68764842139539",
+    "shapeType": "ADM2",
+    "latitude": -7.767893173282402,
+    "longitude": 110.37491066450396
+  },
+  {
+    "shapeName": "Solok",
+    "shapeID": "22746128B59065860162276",
+    "shapeType": "ADM2",
+    "latitude": -0.9093815478971525,
+    "longitude": 100.78677845116822
+  },
+  {
+    "shapeName": "Solok Selatan",
+    "shapeID": "22746128B25846553351835",
+    "shapeType": "ADM2",
+    "latitude": -1.3529281361486043,
+    "longitude": 101.27469117060821
+  },
+  {
+    "shapeName": "Soppeng",
+    "shapeID": "22746128B93867843889604",
+    "shapeType": "ADM2",
+    "latitude": -4.299635318650751,
+    "longitude": 119.90481831309532
+  },
+  {
+    "shapeName": "Sorong",
+    "shapeID": "22746128B25112391877259",
+    "shapeType": "ADM2",
+    "latitude": -1.142452364923708,
+    "longitude": 131.33399738453164
+  },
+  {
+    "shapeName": "Sorong Selatan",
+    "shapeID": "22746128B99267537228675",
+    "shapeType": "ADM2",
+    "latitude": -1.7269411514657866,
+    "longitude": 132.03186289153106
+  },
+  {
+    "shapeName": "Sragen",
+    "shapeID": "22746128B28263166501815",
+    "shapeType": "ADM2",
+    "latitude": -7.350546071688708,
+    "longitude": 110.91418957251676
+  },
+  {
+    "shapeName": "Subang",
+    "shapeID": "22746128B90150108137034",
+    "shapeType": "ADM2",
+    "latitude": -6.480275419281622,
+    "longitude": 107.74380131871449
+  },
+  {
+    "shapeName": "Sukabumi",
+    "shapeID": "22746128B66929526216355",
+    "shapeType": "ADM2",
+    "latitude": -7.060242572903181,
+    "longitude": 106.73356900258062
+  },
+  {
+    "shapeName": "Sukamara",
+    "shapeID": "22746128B44365111458704",
+    "shapeType": "ADM2",
+    "latitude": -2.5609022999999587,
+    "longitude": 111.13125161913581
+  },
+  {
+    "shapeName": "Sukoharjo",
+    "shapeID": "22746128B41417259813102",
+    "shapeType": "ADM2",
+    "latitude": -7.685542820322534,
+    "longitude": 110.80145874225819
+  },
+  {
+    "shapeName": "Sumba Barat",
+    "shapeID": "22746128B3578697728098",
+    "shapeType": "ADM2",
+    "latitude": -9.636567619858113,
+    "longitude": 119.37604590141852
+  },
+  {
+    "shapeName": "Sumba Barat Daya",
+    "shapeID": "22746128B80160169684098",
+    "shapeType": "ADM2",
+    "latitude": -9.570782933928527,
+    "longitude": 119.19846236666675
+  },
+  {
+    "shapeName": "Sumba Tengah",
+    "shapeID": "22746128B11743482298506",
+    "shapeType": "ADM2",
+    "latitude": -9.591243658689415,
+    "longitude": 119.66739787720813
+  },
+  {
+    "shapeName": "Sumba Timur",
+    "shapeID": "22746128B15873256673931",
+    "shapeType": "ADM2",
+    "latitude": -9.84083587553013,
+    "longitude": 120.12730153588917
+  },
+  {
+    "shapeName": "Sumbawa",
+    "shapeID": "22746128B848155691224",
+    "shapeType": "ADM2",
+    "latitude": -8.612862414827307,
+    "longitude": 117.5484518385917
+  },
+  {
+    "shapeName": "Sumbawa Barat",
+    "shapeID": "22746128B87271379033569",
+    "shapeType": "ADM2",
+    "latitude": -8.832279830484946,
+    "longitude": 116.87809444249422
+  },
+  {
+    "shapeName": "Sumedang",
+    "shapeID": "22746128B19624873108228",
+    "shapeType": "ADM2",
+    "latitude": -6.807192281194655,
+    "longitude": 107.99457092057519
+  },
+  {
+    "shapeName": "Sumenep",
+    "shapeID": "22746128B46307112426649",
+    "shapeType": "ADM2",
+    "latitude": -6.92517697934444,
+    "longitude": 115.04141526165742
+  },
+  {
+    "shapeName": "Supiori",
+    "shapeID": "22746128B73598541988454",
+    "shapeType": "ADM2",
+    "latitude": -0.6718897764112457,
+    "longitude": 135.47468893689512
+  },
+  {
+    "shapeName": "Tabalong",
+    "shapeID": "22746128B29828162207979",
+    "shapeType": "ADM2",
+    "latitude": -1.7802611128608492,
+    "longitude": 115.54752140866142
+  },
+  {
+    "shapeName": "Tabanan",
+    "shapeID": "22746128B4646422714630",
+    "shapeType": "ADM2",
+    "latitude": -8.424305093632919,
+    "longitude": 115.08150484794018
+  },
+  {
+    "shapeName": "Takalar",
+    "shapeID": "22746128B33549586615312",
+    "shapeType": "ADM2",
+    "latitude": -5.425888299508557,
+    "longitude": 119.42546238894353
+  },
+  {
+    "shapeName": "Tambrauw",
+    "shapeID": "22746128B68810971865676",
+    "shapeType": "ADM2",
+    "latitude": -0.7392640446153523,
+    "longitude": 132.7835853456411
+  },
+  {
+    "shapeName": "Tana Tidung",
+    "shapeID": "22746128B22343651246279",
+    "shapeType": "ADM2",
+    "latitude": 3.588789894484212,
+    "longitude": 117.41726947783457
+  },
+  {
+    "shapeName": "Tana Toraja",
+    "shapeID": "22746128B55477646801661",
+    "shapeType": "ADM2",
+    "latitude": -3.131002795714239,
+    "longitude": 119.73473021333348
+  },
+  {
+    "shapeName": "Tanah Bumbu",
+    "shapeID": "22746128B5843223707622",
+    "shapeType": "ADM2",
+    "latitude": -3.3442204624323963,
+    "longitude": 115.7350129845946
+  },
+  {
+    "shapeName": "Tanah Datar",
+    "shapeID": "22746128B43985885623603",
+    "shapeType": "ADM2",
+    "latitude": -0.4736476660958457,
+    "longitude": 100.56551948732887
+  },
+  {
+    "shapeName": "Tanah Laut",
+    "shapeID": "22746128B54914598899185",
+    "shapeType": "ADM2",
+    "latitude": -3.760937656783881,
+    "longitude": 114.90403129698495
+  },
+  {
+    "shapeName": "Tangerang",
+    "shapeID": "22746128B62876177397182",
+    "shapeType": "ADM2",
+    "latitude": -6.206528178506749,
+    "longitude": 106.50761836040732
+  },
+  {
+    "shapeName": "Tanggamus",
+    "shapeID": "22746128B69666188283297",
+    "shapeType": "ADM2",
+    "latitude": -5.595177400833289,
+    "longitude": 104.78427303999999
+  },
+  {
+    "shapeName": "Tanjung Jabung Barat",
+    "shapeID": "22746128B97653119007289",
+    "shapeType": "ADM2",
+    "latitude": -1.1113005446042712,
+    "longitude": 103.13609686259007
+  },
+  {
+    "shapeName": "Tanjung Jabung Timur",
+    "shapeID": "22746128B13468366985120",
+    "shapeType": "ADM2",
+    "latitude": -1.1445787770034404,
+    "longitude": 103.92674295087114
+  },
+  {
+    "shapeName": "Tapanuli Selatan",
+    "shapeID": "22746128B22210082667393",
+    "shapeType": "ADM2",
+    "latitude": 1.4479571730706506,
+    "longitude": 99.22164778571428
+  },
+  {
+    "shapeName": "Tapanuli Tengah",
+    "shapeID": "22746128B86210793324026",
+    "shapeType": "ADM2",
+    "latitude": 1.7499849727749113,
+    "longitude": 98.68551754886563
+  },
+  {
+    "shapeName": "Tapanuli Utara",
+    "shapeID": "22746128B99937545443202",
+    "shapeType": "ADM2",
+    "latitude": 2.070150873462826,
+    "longitude": 99.05166746375416
+  },
+  {
+    "shapeName": "Tapin",
+    "shapeID": "22746128B54842505361870",
+    "shapeType": "ADM2",
+    "latitude": -2.935225476878572,
+    "longitude": 115.2249124566474
+  },
+  {
+    "shapeName": "Tasikmalaya",
+    "shapeID": "22746128B89217704079934",
+    "shapeType": "ADM2",
+    "latitude": -7.42202607364566,
+    "longitude": 108.19738315724739
+  },
+  {
+    "shapeName": "Tebo",
+    "shapeID": "22746128B61304276790881",
+    "shapeType": "ADM2",
+    "latitude": -1.3109755794392102,
+    "longitude": 102.30699790467285
+  },
+  {
+    "shapeName": "Tegal",
+    "shapeID": "22746128B39713682939315",
+    "shapeType": "ADM2",
+    "latitude": -7.03152532848832,
+    "longitude": 109.17210651860464
+  },
+  {
+    "shapeName": "Teluk Bintuni",
+    "shapeID": "22746128B11480476919105",
+    "shapeType": "ADM2",
+    "latitude": -2.2768952390334496,
+    "longitude": 133.58454228289955
+  },
+  {
+    "shapeName": "Teluk Wondama",
+    "shapeID": "22746128B47515282892276",
+    "shapeType": "ADM2",
+    "latitude": -2.3203793734341063,
+    "longitude": 134.35051409708424
+  },
+  {
+    "shapeName": "Temanggung",
+    "shapeID": "22746128B37534287210764",
+    "shapeType": "ADM2",
+    "latitude": -7.215754806007025,
+    "longitude": 110.15438145265018
+  },
+  {
+    "shapeName": "Timor Tengah Selatan",
+    "shapeID": "22746128B39495189442435",
+    "shapeType": "ADM2",
+    "latitude": -9.72770701164552,
+    "longitude": 124.36708411265838
+  },
+  {
+    "shapeName": "Timor Tengah Utara",
+    "shapeID": "22746128B66987763142599",
+    "shapeType": "ADM2",
+    "latitude": -9.401427300190786,
+    "longitude": 124.51402539923676
+  },
+  {
+    "shapeName": "Toba Samosir",
+    "shapeID": "22746128B48431928866564",
+    "shapeType": "ADM2",
+    "latitude": 2.422213477129625,
+    "longitude": 99.20940022294143
+  },
+  {
+    "shapeName": "Tojo Una-Una",
+    "shapeID": "22746128B20933115656615",
+    "shapeType": "ADM2",
+    "latitude": -0.5568225202988176,
+    "longitude": 121.90059161902404
+  },
+  {
+    "shapeName": "Toli-Toli",
+    "shapeID": "22746128B86630799177927",
+    "shapeType": "ADM2",
+    "latitude": 0.986812607768096,
+    "longitude": 120.66911941367624
+  },
+  {
+    "shapeName": "Tolikara",
+    "shapeID": "22746128B10432975654062",
+    "shapeType": "ADM2",
+    "latitude": -3.4535400222221835,
+    "longitude": 138.28476322666677
+  },
+  {
+    "shapeName": "Toraja Utara",
+    "shapeID": "22746128B99951949618583",
+    "shapeType": "ADM2",
+    "latitude": -2.924357349999959,
+    "longitude": 119.88531612521012
+  },
+  {
+    "shapeName": "Trenggalek",
+    "shapeID": "22746128B86316028646138",
+    "shapeType": "ADM2",
+    "latitude": -8.214966472222196,
+    "longitude": 111.62788842517368
+  },
+  {
+    "shapeName": "Tuban",
+    "shapeID": "22746128B21203406788524",
+    "shapeType": "ADM2",
+    "latitude": -6.986572961624605,
+    "longitude": 111.9089095588236
+  },
+  {
+    "shapeName": "Tulang Bawang Barat",
+    "shapeID": "22746128B7348236235073",
+    "shapeType": "ADM2",
+    "latitude": -4.397293112779512,
+    "longitude": 105.09364721437703
+  },
+  {
+    "shapeName": "Tulangbawang",
+    "shapeID": "22746128B49188423555547",
+    "shapeType": "ADM2",
+    "latitude": -4.464954323516438,
+    "longitude": 105.49348530439572
+  },
+  {
+    "shapeName": "Tulungagung",
+    "shapeID": "22746128B2754392863745",
+    "shapeType": "ADM2",
+    "latitude": -8.125015617468318,
+    "longitude": 111.86634549772154
+  },
+  {
+    "shapeName": "Waduk Cirata",
+    "shapeID": "22746128B76055711701199",
+    "shapeType": "ADM2",
+    "latitude": -6.751285652380911,
+    "longitude": 107.29921181058198
+  },
+  {
+    "shapeName": "Wadung Kedungombo",
+    "shapeID": "22746128B86942252851890",
+    "shapeType": "ADM2",
+    "latitude": -7.289672822978682,
+    "longitude": 110.81790438531925
+  },
+  {
+    "shapeName": "Wajo",
+    "shapeID": "22746128B4429389080756",
+    "shapeType": "ADM2",
+    "latitude": -4.00105176370554,
+    "longitude": 120.15198374289353
+  },
+  {
+    "shapeName": "Wakatobi",
+    "shapeID": "22746128B42553963392557",
+    "shapeType": "ADM2",
+    "latitude": -5.560396446471978,
+    "longitude": 123.81342754111924
+  },
+  {
+    "shapeName": "Waropen",
+    "shapeID": "22746128B12986554349068",
+    "shapeType": "ADM2",
+    "latitude": -2.673528353175313,
+    "longitude": 136.70055655488162
+  },
+  {
+    "shapeName": "Way Kanan",
+    "shapeID": "22746128B8708218473228",
+    "shapeType": "ADM2",
+    "latitude": -4.532220428769803,
+    "longitude": 104.6165888591271
+  },
+  {
+    "shapeName": "Wonogiri",
+    "shapeID": "22746128B32217084331074",
+    "shapeType": "ADM2",
+    "latitude": -7.907187760544179,
+    "longitude": 111.013758130839
+  },
+  {
+    "shapeName": "Wonosobo",
+    "shapeID": "22746128B92173297199140",
+    "shapeType": "ADM2",
+    "latitude": -7.439750440397308,
+    "longitude": 109.88957009403987
+  },
+  {
+    "shapeName": "Yahukimo",
+    "shapeID": "22746128B87177062694316",
+    "shapeType": "ADM2",
+    "latitude": -4.133255426538421,
+    "longitude": 139.96130791423073
+  },
+  {
+    "shapeName": "Yalimo",
+    "shapeID": "22746128B10188501962211",
+    "shapeType": "ADM2",
+    "latitude": -3.635907377070021,
+    "longitude": 139.504199600637
+  }
+]
