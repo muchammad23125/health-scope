@@ -6,11 +6,9 @@ import { useState } from "react";
 import Image from "next/image";
 
 export default function Navbar() {
-
   const pathname = usePathname();
 
-  const [mobileMenu, setMobileMenu] =
-    useState(false);
+  const [mobileMenu, setMobileMenu] = useState(false);
 
   const menuClass = (path: string) =>
     pathname === path
@@ -39,7 +37,6 @@ export default function Navbar() {
       `;
 
   return (
-
     <header
       className="
         sticky
@@ -51,9 +48,7 @@ export default function Navbar() {
 
         border-b
         border-slate-200
-      "
-    >
-
+      ">
       {/* CONTAINER */}
 
       <div
@@ -71,27 +66,18 @@ export default function Navbar() {
           flex
           items-center
           justify-between
-        "
-      >
-
+        ">
         {/* LOGO */}
 
         <Link
           href="/"
           className="
-    flex
-    items-center
-    gap-3
-    md:gap-4
-
-    transition-all
-    duration-300
-
-    hover:opacity-90
-  "
-        >
-
-          {/* LOGO IMAGE */}
+            flex
+            items-center
+            gap-3
+            md:gap-4
+          ">
+          {/* ICON */}
 
           <Image
             src="/images/logo.png"
@@ -100,32 +86,60 @@ export default function Navbar() {
             height={70}
             priority
             className="
-      w-12
-      h-12
+              w-11
+              h-11
 
-      md:w-16
-      md:h-16
+              md:w-14
+              md:h-14
 
-      object-contain
-      shrink-0
-    "
-          />
+              rounded-2xl
+
+              bg-gradient-to-br
+              from-[#0F766E]
+              to-[#14B8A6]
+
+              flex
+              items-center
+              justify-center
+
+              shadow-lg
+            ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="
+                w-6
+                h-6
+
+                md:w-8
+                md:h-8
+
+                text-white
+              "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 8v8m4-4H8m12 0A9 9 0 1112 3a9 9 0 019 9z"
+              />
+            </svg>
+          </div>
 
           {/* TEXT */}
 
           <div>
-
             <h1
               className="
         text-[22px]
         sm:text-[26px]
         md:text-[30px]
 
-        leading-none
-        font-extrabold
-        text-slate-900
-      "
-            >
+                leading-none
+                font-extrabold
+                text-slate-900
+              ">
               Health Scope
             </h1>
 
@@ -134,17 +148,14 @@ export default function Navbar() {
         hidden
         sm:block
 
-        mt-1
-        text-sm
-        text-slate-500
-      "
-            >
+                mt-1
+                text-sm
+                text-slate-500
+              ">
               Early Warning Disease System Indonesia
             </p>
-
           </div>
-
-        </Link>
+        </div>
 
         {/* DESKTOP MENU */}
 
@@ -154,54 +165,32 @@ export default function Navbar() {
             lg:flex
             items-center
             gap-10
-          "
-        >
-
-          <Link
-            href="/"
-            className={menuClass("/")}
-          >
+          ">
+          <Link href="/" className={menuClass("/")}>
             Home
           </Link>
 
-          <Link
-            href="/prediksi-wabah"
-            className={menuClass("/prediksi-wabah")}
-          >
+          <Link href="/prediksi-wabah" className={menuClass("/prediksi-wabah")}>
             Peta Resiko
           </Link>
 
           <Link
-            href="/ai-prediksi"
-            onClick={() =>
-              setMobileMenu(false)
-            }
-            className={menuClass("/ai-prediksi")}
-          >
-            Ai-Prediksi
+            href="/ai-prediksi-resiko"
+            className={menuClass("/ai-prediksi-resiko")}>
+            AI Prediksi Resiko
           </Link>
 
-          <Link
-            href="/dampak-sistem"
-            className={menuClass("/dampak-sistem")}
-          >
+          <Link href="/dampak-sistem" className={menuClass("/dampak-sistem")}>
             Dampak Sistem
           </Link>
 
-          <Link
-            href="/edukasi"
-            className={menuClass("/edukasi")}
-          >
+          <Link href="/edukasi" className={menuClass("/edukasi")}>
             Edukasi
           </Link>
 
-          <Link
-            href="/berita"
-            className={menuClass("/berita")}
-          >
+          <Link href="/berita" className={menuClass("/berita")}>
             Berita Kesehatan
           </Link>
-
         </nav>
 
         {/* HAMBURGER */}
@@ -224,15 +213,13 @@ export default function Navbar() {
             transition-all
             duration-300
           "
-          aria-label="Toggle Mobile Menu"
-        >
+          aria-label="Toggle Mobile Menu">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-6 h-6 text-slate-700"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
+            stroke="currentColor">
             {mobileMenu ? (
               <path
                 strokeLinecap="round"
@@ -250,7 +237,6 @@ export default function Navbar() {
             )}
           </svg>
         </button>
-
       </div>
 
       {/* MOBILE MENU */}
@@ -266,13 +252,9 @@ export default function Navbar() {
           duration-300
           ease-in-out
 
-          ${mobileMenu
-            ? "max-h-[400px]"
-            : "max-h-0"}
+          ${mobileMenu ? "max-h-[400px]" : "max-h-0"}
 
-        `}
-      >
-
+        `}>
         <nav
           className="
             px-6
@@ -283,75 +265,43 @@ export default function Navbar() {
             gap-5
 
             bg-white
-          "
-        >
-
+          ">
           <Link
             href="/"
-            onClick={() =>
-              setMobileMenu(false)
-            }
-            className={menuClass("/")}
-          >
+            onClick={() => setMobileMenu(false)}
+            className={menuClass("/")}>
             Home
           </Link>
 
           <Link
             href="/prediksi-wabah"
-            onClick={() =>
-              setMobileMenu(false)
-            }
-            className={menuClass("/prediksi-wabah")}
-          >
-            Peta-resiko
+            onClick={() => setMobileMenu(false)}
+            className={menuClass("/prediksi-wabah")}>
+            Prediksi Wabah
           </Link>
 
           <Link
-            href="/ai-prediksi"
-            onClick={() =>
-              setMobileMenu(false)
-            }
-            className={menuClass("/ai-prediksi")}
-          >
-            Ai-Prediksi
-          </Link>
-
-          <Link
-            href="/dampak-sistem"
-            onClick={() =>
-              setMobileMenu(false)
-            }
-            className={menuClass("/dampak-sistem")}
-          >
-            Dampak Sistem
+            href="/ai-prediksi-resiko"
+            onClick={() => setMobileMenu(false)}
+            className={menuClass("/ai-prediksi-resiko")}>
+            Prediksi Resiko
           </Link>
 
           <Link
             href="/edukasi"
-            onClick={() =>
-              setMobileMenu(false)
-            }
-            className={menuClass("/edukasi")}
-          >
+            onClick={() => setMobileMenu(false)}
+            className={menuClass("/edukasi")}>
             Edukasi
           </Link>
 
           <Link
             href="/berita"
-            onClick={() =>
-              setMobileMenu(false)
-            }
-            className={menuClass("/berita")}
-          >
+            onClick={() => setMobileMenu(false)}
+            className={menuClass("/berita")}>
             Berita Kesehatan
           </Link>
-
         </nav>
-
       </div>
-
     </header>
-
   );
-
 }

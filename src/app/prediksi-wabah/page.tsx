@@ -118,118 +118,107 @@ export default function PrediksiPage() {
 
   return (
     <main className="min-h-screen bg-slate-50">
-
       <section className="container-page py-8 lg:py-10">
-
-        {/* HEADER */}
-        <div
-          className="
-    mb-10
-    md:mb-14
-
-    flex
-    flex-col
-    items-center
-    text-center
-
-    px-4
-    sm:px-6
-    lg:px-0
-  "
-        >
-
-          <span
-            className="
-      inline-flex
-      rounded-full
-      bg-teal-50
-
-      px-3
-      py-2
-
-      sm:px-4
-
-      text-xs
-      sm:text-sm
-
-      font-semibold
-      text-teal-700
-    "
-          >
+        <div className="mb-8">
+          <span className="inline-flex rounded-full bg-teal-50 px-4 py-2 text-sm font-semibold text-teal-700">
             Prediksi Wabah Nasional
           </span>
 
-          <h1
-            className="
-      mt-4
-
-      text-[32px]
-      leading-[40px]
-
-      sm:text-[40px]
-      sm:leading-[48px]
-
-      md:text-[52px]
-      md:leading-[60px]
-
-      lg:text-5xl
-
-      font-bold
-      tracking-tight
-      text-slate-900
-    "
-          >
+          <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 md:text-5xl">
             Peta Risiko Nasional
           </h1>
 
-          <p
-            className="
-      mt-4
-
-      max-w-full
-      sm:max-w-2xl
-      lg:max-w-4xl
-
-      text-[15px]
-      leading-7
-
-      sm:text-base
-
-      md:text-lg
-      md:leading-8
-
-      text-slate-600
-    "
-          >
-            Lihat persebaran risiko penyakit di Indonesia melalui
-            peta interaktif berbasis GIS, dilengkapi prediksi risiko
-            wabah 3–7 hari ke depan berbasis data iklim,
-            riwayat penyakit, tren pencarian, dan kerentanan wilayah.
+          <p className="mt-3 max-w-3xl text-base leading-7 text-slate-600">
+            Lihat persebaran risiko penyakit di Indonesia melalui peta
+            interaktif berbasis GIS, dilengkapi prediksi risiko wabah 7-14 hari
+            ke depan berbasis data iklim, riwayat penyakit, tren pencarian, dan
+            kerentanan wilayah.
           </p>
-
         </div>
 
-        {/* MAP */}
-
-        <div
-          className="
-        rounded-[2rem]
-        border
-        border-slate-200
-        bg-white
-        p-3
-        shadow-sm
-      "
-        >
-
-          <RiskMap
-            onUserRiskChange={setUserRiskContext}
-          />
-
+        <div className="rounded-[2rem] border border-slate-200 bg-white p-3 shadow-sm">
+          <RiskMap onUserRiskChange={setUserRiskContext} />
         </div>
 
+        <section className="mt-10 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm lg:p-8">
+          <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <span className="inline-flex rounded-full bg-cyan-50 px-4 py-2 text-sm font-semibold text-cyan-700">
+                AI-Based Early Warning System
+              </span>
+
+              <h2 className="mt-4 text-2xl font-bold tracking-tight text-slate-900 md:text-3xl">
+                Analisis Prediksi Risiko Wabah
+              </h2>
+
+              <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600 md:text-base">
+                Sistem menganalisis risiko penyakit berdasarkan faktor iklim,
+                riwayat kasus, tren pencarian masyarakat, laporan partisipatif,
+                dan tingkat kerentanan wilayah. Hasilnya berupa status
+                kewaspadaan, skor risiko, faktor penyebab, serta rekomendasi
+                tindakan.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-3">
+              {(["DBD", "ISPA", "Diare"] as DiseaseType[]).map((disease) => (
+                <button
+                  key={disease}
+                  onClick={() => runPrediction(disease)}
+                  disabled={loading}
+                  className={`rounded-2xl px-5 py-3 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-60 ${
+                    selectedDisease === disease
+                      ? "bg-teal-600 text-white shadow-sm"
+                      : "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+                  }`}>
+                  Prediksi {disease}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {loading && (
+            <div className="mt-6 rounded-2xl border border-cyan-100 bg-cyan-50 p-4 text-sm font-medium text-cyan-700">
+              Sistem sedang menganalisis data risiko wabah...
+            </div>
+          )}
+
+          {!prediction && !loading && (
+            <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <h3 className="font-semibold text-slate-900">
+                Jalankan simulasi prediksi
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Pilih salah satu jenis penyakit untuk melihat bagaimana sistem
+                menghasilkan prediksi risiko, tingkat kerentanan, catatan
+                kewaspadaan, dan rekomendasi tindakan.
+              </p>
+            </div>
+          )}
+
+          {prediction && (
+            <div className="mt-6 space-y-6">
+              <div className="grid gap-6 xl:grid-cols-2">
+                <div className="space-y-6">
+                  <OutbreakPredictionCard prediction={prediction} />
+                  <RecommendationList
+                    recommendations={prediction.recommendations}
+                  />
+                </div>
+
+                <ExplainableFactors factors={prediction.explainableFactors} />
+              </div>
+
+              {prediction.aiAdvisory && (
+                <AiAdvisoryPanel
+                  aiAdvisory={prediction.aiAdvisory}
+                  alertStatus={prediction.alertStatus}
+                />
+              )}
+            </div>
+          )}
+        </section>
       </section>
-
     </main>
   );
 }

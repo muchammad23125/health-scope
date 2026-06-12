@@ -63,212 +63,23 @@ export default function BeritaPage() {
   ];
 
   return (
-    <main className="bg-[#F8FAFC] min-h-screen">
+    <main className="container-page py-10">
+      <h1 className="text-5xl font-bold">Berita Kesehatan</h1>
 
-      {/* HERO */}
-      <section className="bg-gradient-to-br from-[#EAF7F8] via-white to-[#F0FDFA]">
-
-        <div className="max-w-7xl mx-auto px-5 md:px-8 lg:px-6 py-16 md:py-20">
-
-          <div className="max-w-3xl">
-
-            <span
-              className="
-                inline-flex
-                px-4
-                py-2
-                rounded-full
-                bg-teal-50
-                text-teal-700
-                text-sm
-                font-semibold
-              "
-            >
-              Informasi Kesehatan Terkini
-            </span>
-
-            <h1
-              className="
-                mt-5
-
-                text-[36px]
-                leading-[44px]
-
-                sm:text-[44px]
-                sm:leading-[52px]
-
-                md:text-[56px]
-                md:leading-[64px]
-
-                font-bold
-                text-slate-900
-              "
-            >
-              Berita Kesehatan
-            </h1>
-
-            <p
-              className="
-                mt-5
-
-                text-slate-600
-
-                text-base
-                leading-8
-
-                md:text-lg
-                max-w-2xl
-              "
-            >
-              Ikuti perkembangan terbaru terkait penyakit,
-              kondisi lingkungan, serta informasi kesehatan
-              masyarakat yang dapat membantu meningkatkan
-              kewaspadaan terhadap risiko wabah.
-            </p>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* LIST BERITA */}
-      <section className="py-12 md:py-16">
-
-        <div className="max-w-7xl mx-auto px-5 md:px-8 lg:px-6">
-
+      <div className="grid md:grid-cols-3 gap-6 mt-10">
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((item) => (
           <div
-            className="
-        grid
-        grid-cols-1
-        md:grid-cols-2
-        xl:grid-cols-3
-        gap-8
-      "
-          >
+            key={item}
+            className="bg-white rounded-3xl shadow overflow-hidden">
+            <div className="h-52 bg-slate-200"></div>
 
-            {berita.map((item) => (
+            <div className="p-6">
+              <h3 className="text-2xl font-bold">Artikel Kesehatan</h3>
 
-              <article
-                key={item.id}
-                className="
-            group
-
-            bg-white
-
-            rounded-[30px]
-
-            overflow-hidden
-
-            border
-            border-slate-100
-
-            shadow-lg
-
-            hover:-translate-y-2
-            hover:shadow-2xl
-
-            transition-all
-            duration-300
-          "
-              >
-
-                {/* IMAGE */}
-                <div className="relative">
-
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="
-                w-full
-                h-[220px]
-                object-cover
-              "
-                  />
-
-                  <div
-                    className="
-                absolute
-                top-4
-                left-4
-
-                bg-white/95
-                backdrop-blur-md
-
-                px-3
-                py-1.5
-
-                rounded-full
-
-                text-xs
-                font-bold
-
-                text-[#0F766E]
-              "
-                  >
-                    {item.kategori}
-                  </div>
-
-                </div>
-
-                {/* CONTENT */}
-                <div className="p-6">
-
-                  <p className="text-sm text-slate-400">
-                    {item.tanggal}
-                  </p>
-
-                  <h2
-                    className="
-                mt-3
-
-                text-[22px]
-                leading-[32px]
-
-                font-bold
-                text-slate-900
-
-                line-clamp-2
-              "
-                  >
-                    {item.title}
-                  </h2>
-
-                  <p
-                    className="
-                mt-4
-
-                text-slate-600
-
-                leading-7
-
-                line-clamp-3
-              "
-                  >
-                    {item.desc}
-                  </p>
-
-                  <button
-                    className="
-                mt-5
-
-                text-[#0F766E]
-                font-semibold
-
-                group-hover:translate-x-1
-
-                transition-all
-              "
-                  >
-                    Baca Selengkapnya →
-                  </button>
-
-                </div>
-
-              </article>
-
-            ))}
-
+              <p className="mt-3 text-slate-500">
+                Konten berita dummy untuk testing UI.
+              </p>
+            </div>
           </div>
 
         </div>

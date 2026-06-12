@@ -35,7 +35,6 @@ type RiskMapProps = {
 };
 
 export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
-  const { setUserRisk } = useUserRisk();
   const [geojson, setGeojson] = useState<any>(null);
   const [hoverInfo, setHoverInfo] = useState<any>(null);
   const [selectedArea, setSelectedArea] = useState<any>(null);
@@ -378,55 +377,27 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
     setRiskPeriod(period);
   }, [riskScore]);
 
-  /* SIMPAN DATA USER RISK KE LOCAL STORAGE */
+  /* KIRIM DATA RISK USER KE PAGE.TSX */
   useEffect(() => {
-
-    if (
-      !userLocation ||
-      !weatherData
-    ) {
+    if (!onUserRiskChange || !userLocation || !weatherData) {
       return;
     }
 
-    const riskContext = {
-      region:
-        userArea?.shapeName ??
-        "Lokasi Anda",
-
-      province:
-        userArea?.province,
-
-      latitude:
-        userLocation.latitude,
-
-      longitude:
-        userLocation.longitude,
-
-      temperature:
-        weatherData.temperature ?? 0,
-
-      humidity:
-        weatherData.humidity ?? 0,
-
-      rain:
-        weatherData.rain ?? 0,
-
+    onUserRiskChange({
+      region: userArea?.shapeName ?? "Lokasi Anda",
+      province: userArea?.province,
+      latitude: userLocation.latitude,
+      longitude: userLocation.longitude,
+      temperature: weatherData.temperature ?? 0,
+      humidity: weatherData.humidity ?? 0,
+      rain: weatherData.rain ?? 0,
       riskScore,
-
       riskStatus,
-
       diseasePrediction,
-
       riskPeriod,
-    };
-
-    setUserRisk(riskContext);
-
-    onUserRiskChange?.(
-      riskContext
-    );
-
+    });
   }, [
+    onUserRiskChange,
     userLocation,
     userArea,
     weatherData,
@@ -434,8 +405,6 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
     riskStatus,
     diseasePrediction,
     riskPeriod,
-    onUserRiskChange,
-    setUserRisk,
   ]);
 
   /* UPDATE WARNA USER AREA */
@@ -655,12 +624,13 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
                   </div>
 
                   <div
-                    className={`text-xs ${selectedArea.status === "high"
-                      ? "text-red-600"
-                      : selectedArea.status === "warning"
-                        ? "text-amber-600"
-                        : "text-emerald-600"
-                      }`}>
+                    className={`text-xs ${
+                      selectedArea.status === "high"
+                        ? "text-red-600"
+                        : selectedArea.status === "warning"
+                          ? "text-amber-600"
+                          : "text-emerald-600"
+                    }`}>
                     {getStatusLabel(selectedArea.status)}
                   </div>
                 </div>
@@ -692,12 +662,13 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
                     <span>Status</span>
 
                     <span
-                      className={`font-semibold ${selectedArea.status === "high"
-                        ? "text-red-600"
-                        : selectedArea.status === "warning"
-                          ? "text-amber-600"
-                          : "text-emerald-600"
-                        }`}>
+                      className={`font-semibold ${
+                        selectedArea.status === "high"
+                          ? "text-red-600"
+                          : selectedArea.status === "warning"
+                            ? "text-amber-600"
+                            : "text-emerald-600"
+                      }`}>
                       {getStatusLabel(selectedArea.status)}
                     </span>
                   </div>
@@ -736,12 +707,13 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
                   </div>
 
                   <div
-                    className={`text-xs ${riskStatus === "high"
-                      ? "text-red-600"
-                      : riskStatus === "warning"
-                        ? "text-amber-600"
-                        : "text-emerald-600"
-                      }`}>
+                    className={`text-xs ${
+                      riskStatus === "high"
+                        ? "text-red-600"
+                        : riskStatus === "warning"
+                          ? "text-amber-600"
+                          : "text-emerald-600"
+                    }`}>
                     {getStatusLabel(riskStatus)}
                   </div>
                 </div>
@@ -775,12 +747,13 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
                     <span className="text-slate-500">Status</span>
 
                     <span
-                      className={`font-semibold ${riskStatus === "high"
-                        ? "text-red-600"
-                        : riskStatus === "warning"
-                          ? "text-amber-600"
-                          : "text-emerald-600"
-                        }`}>
+                      className={`font-semibold ${
+                        riskStatus === "high"
+                          ? "text-red-600"
+                          : riskStatus === "warning"
+                            ? "text-amber-600"
+                            : "text-emerald-600"
+                      }`}>
                       {getStatusLabel(riskStatus)}
                     </span>
                   </div>
@@ -891,12 +864,13 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
               </div>
 
               <span
-                className={`rounded-full px-3 py-1 text-xs font-semibold ${area.riskStatus === "high"
-                  ? "bg-red-100 text-red-700"
-                  : area.riskStatus === "warning"
-                    ? "bg-amber-100 text-amber-700"
-                    : "bg-emerald-100 text-emerald-700"
-                  }`}>
+                className={`rounded-full px-3 py-1 text-xs font-semibold ${
+                  area.riskStatus === "high"
+                    ? "bg-red-100 text-red-700"
+                    : area.riskStatus === "warning"
+                      ? "bg-amber-100 text-amber-700"
+                      : "bg-emerald-100 text-emerald-700"
+                }`}>
                 {getStatusLabel(area.riskStatus)}
               </span>
             </div>
@@ -943,36 +917,39 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
 
                   <td className="text-center">
                     <span
-                      className={`rounded-full px-3 py-1 text-xs font-semibold ${area.todayStatus === "high"
-                        ? "bg-red-100 text-red-700"
-                        : area.todayStatus === "warning"
-                          ? "bg-amber-100 text-amber-700"
-                          : "bg-emerald-100 text-emerald-700"
-                        }`}>
+                      className={`rounded-full px-3 py-1 text-xs font-semibold ${
+                        area.todayStatus === "high"
+                          ? "bg-red-100 text-red-700"
+                          : area.todayStatus === "warning"
+                            ? "bg-amber-100 text-amber-700"
+                            : "bg-emerald-100 text-emerald-700"
+                      }`}>
                       {getStatusLabel(area.todayStatus)}
                     </span>
                   </td>
 
                   <td className="text-center">
                     <span
-                      className={`rounded-full px-3 py-1 text-xs font-semibold ${area.day3Status === "high"
-                        ? "bg-red-100 text-red-700"
-                        : area.day3Status === "warning"
-                          ? "bg-amber-100 text-amber-700"
-                          : "bg-emerald-100 text-emerald-700"
-                        }`}>
+                      className={`rounded-full px-3 py-1 text-xs font-semibold ${
+                        area.day3Status === "high"
+                          ? "bg-red-100 text-red-700"
+                          : area.day3Status === "warning"
+                            ? "bg-amber-100 text-amber-700"
+                            : "bg-emerald-100 text-emerald-700"
+                      }`}>
                       {getStatusLabel(area.day3Status)}
                     </span>
                   </td>
 
                   <td className="text-center">
                     <span
-                      className={`rounded-full px-3 py-1 text-xs font-semibold ${area.day7Status === "high"
-                        ? "bg-red-100 text-red-700"
-                        : area.day7Status === "warning"
-                          ? "bg-amber-100 text-amber-700"
-                          : "bg-emerald-100 text-emerald-700"
-                        }`}>
+                      className={`rounded-full px-3 py-1 text-xs font-semibold ${
+                        area.day7Status === "high"
+                          ? "bg-red-100 text-red-700"
+                          : area.day7Status === "warning"
+                            ? "bg-amber-100 text-amber-700"
+                            : "bg-emerald-100 text-emerald-700"
+                      }`}>
                       {getStatusLabel(area.day7Status)}
                     </span>
                   </td>
@@ -1007,10 +984,11 @@ export default function RiskMap({ onUserRiskChange }: RiskMapProps) {
               <button
                 key={page}
                 onClick={() => setCurrentPage(page)}
-                className={`rounded-lg px-3 py-2 ${currentPage === page
-                  ? "bg-blue-600 text-white"
-                  : "border border-slate-300"
-                  }`}>
+                className={`rounded-lg px-3 py-2 ${
+                  currentPage === page
+                    ? "bg-blue-600 text-white"
+                    : "border border-slate-300"
+                }`}>
                 {page}
               </button>
             ))}
