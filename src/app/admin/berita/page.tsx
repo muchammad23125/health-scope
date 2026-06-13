@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabaseClient";
 import { getCurrentAdmin, type AdminProfile } from "@/lib/adminAuth";
 
+// sudah bisa deploy
+
 type Category = {
   id: string;
   name: string;
