@@ -72,12 +72,17 @@ export default function Navbar() {
         <Link
           href="/"
           className="
-            flex
-            items-center
-            gap-3
-            md:gap-4
-          ">
-          {/* ICON */}
+    flex
+    items-center
+    gap-3
+    md:gap-4
+
+    transition-all
+    duration-300
+
+    hover:opacity-90
+  ">
+          {/* LOGO IMAGE */}
 
           <Image
             src="/images/logo.png"
@@ -86,46 +91,16 @@ export default function Navbar() {
             height={70}
             priority
             className="
-              w-11
-              h-11
+      w-12
+      h-12
 
-              md:w-14
-              md:h-14
+      md:w-16
+      md:h-16
 
-              rounded-2xl
-
-              bg-gradient-to-br
-              from-[#0F766E]
-              to-[#14B8A6]
-
-              flex
-              items-center
-              justify-center
-
-              shadow-lg
-            ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="
-                w-6
-                h-6
-
-                md:w-8
-                md:h-8
-
-                text-white
-              "
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}>
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 8v8m4-4H8m12 0A9 9 0 1112 3a9 9 0 019 9z"
-              />
-            </svg>
-          </div>
+      object-contain
+      shrink-0
+    "
+          />
 
           {/* TEXT */}
 
@@ -136,10 +111,10 @@ export default function Navbar() {
         sm:text-[26px]
         md:text-[30px]
 
-                leading-none
-                font-extrabold
-                text-slate-900
-              ">
+        leading-none
+        font-extrabold
+        text-slate-900
+      ">
               Health Scope
             </h1>
 
@@ -148,14 +123,14 @@ export default function Navbar() {
         hidden
         sm:block
 
-                mt-1
-                text-sm
-                text-slate-500
-              ">
+        mt-1
+        text-sm
+        text-slate-500
+      ">
               Early Warning Disease System Indonesia
             </p>
           </div>
-        </div>
+        </Link>
 
         {/* DESKTOP MENU */}
 
@@ -175,9 +150,10 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/ai-prediksi-resiko"
-            className={menuClass("/ai-prediksi-resiko")}>
-            AI Prediksi Resiko
+            href="/ai-prediksi"
+            onClick={() => setMobileMenu(false)}
+            className={menuClass("/ai-prediksi")}>
+            Ai-Prediksi
           </Link>
 
           <Link href="/dampak-sistem" className={menuClass("/dampak-sistem")}>
@@ -277,14 +253,21 @@ export default function Navbar() {
             href="/prediksi-wabah"
             onClick={() => setMobileMenu(false)}
             className={menuClass("/prediksi-wabah")}>
-            Prediksi Wabah
+            Peta-resiko
           </Link>
 
           <Link
-            href="/ai-prediksi-resiko"
+            href="/ai-prediksi"
             onClick={() => setMobileMenu(false)}
-            className={menuClass("/ai-prediksi-resiko")}>
-            Prediksi Resiko
+            className={menuClass("/ai-prediksi")}>
+            Ai-Prediksi
+          </Link>
+
+          <Link
+            href="/dampak-sistem"
+            onClick={() => setMobileMenu(false)}
+            className={menuClass("/dampak-sistem")}>
+            Dampak Sistem
           </Link>
 
           <Link
