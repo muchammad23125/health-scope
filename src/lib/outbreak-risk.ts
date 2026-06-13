@@ -1,4 +1,3 @@
-import { calculateVulnerability } from "./vulnerability-score";
 import { generateRecommendations } from "./recommendation-engine";
 import { generateWarningNote } from "./warning-note";
 import { generateAiHealthAdvisory } from "./ai-health-advisory";
@@ -10,60 +9,76 @@ export type RiskLevel = "Aman" | "Waspada" | "Siaga" | "Bahaya";
 
 export type OutbreakPredictionInput = {
   region: string;
+
   disease: DiseaseType;
+
   forecastDays: 7 | 14;
+
   temperature: number;
+
   humidity: number;
+
   rainfall: number;
-  windSpeed: number;
-  populationDensity: number;
-  previousCases: number;
-  searchTrendIndex: number;
-  communityReports: number;
+
+  riskScore: number;
+
+  riskStatus: string;
 };
 
 export function predictOutbreakRisk(input: OutbreakPredictionInput) {
   const climateResult = calculateClimateScore(input);
-  const historyScore = normalizeScore(input.previousCases, 100);
-  const trendScore = normalizeScore(input.searchTrendIndex, 100);
-
-  const vulnerabilityResult = calculateVulnerability({
-    populationDensity: input.populationDensity,
-    previousCases: input.previousCases,
-    communityReports: input.communityReports,
-  });
 
   const finalRiskScore = Math.round(
-    climateResult.climateScore * 0.35 +
-      historyScore * 0.25 +
-      trendScore * 0.2 +
-      vulnerabilityResult.vulnerabilityScore * 0.2,
+    climateResult.climateScore * 0.4 + input.riskScore * 0.6,
   );
+
+  const vulnerabilityResult = {
+    vulnerabilityLevel: input.riskStatus,
+    vulnerabilityScore: input.riskScore,
+
+    factors: [
+      {
+        factor: "Kondisi Lingkungan",
+        score: input.riskScore,
+        impact:
+          input.riskScore >= 80
+            ? "Tinggi"
+            : input.riskScore >= 50
+              ? "Sedang"
+              : "Rendah",
+
+        description:
+          "Kerentanan wilayah dihitung berdasarkan kondisi cuaca realtime dan skor risiko pada peta nasional.",
+      },
+    ],
+  };
 
   const riskLevel = getRiskLevel(finalRiskScore);
 
   const explainableFactors = [
     ...climateResult.factors,
     {
-      factor: "Riwayat Kasus Penyakit",
-      score: Math.round(historyScore),
-      impact: getImpact(historyScore),
+      factor: "Risk Score Realtime",
+      score: input.riskScore,
+      impact: getImpact(input.riskScore),
+
       description:
-        "Riwayat kasus sebelumnya menjadi indikator potensi peningkatan risiko.",
+        "Skor risiko diperoleh dari analisis kondisi cuaca realtime pada lokasi pengguna.",
     },
     {
-      factor: "Google Trends",
-      score: Math.round(trendScore),
-      impact: getImpact(trendScore),
-      description:
-        "Peningkatan pencarian kata kunci terkait gejala dapat menjadi sinyal awal perhatian masyarakat.",
+      factor: "Status Risiko",
+      score: input.riskScore,
+      impact: getImpact(input.riskScore),
+
+      description: `Status saat ini adalah ${input.riskStatus}.`,
     },
     {
-      factor: "Kerentanan Wilayah",
-      score: vulnerabilityResult.vulnerabilityScore,
-      impact: getImpact(vulnerabilityResult.vulnerabilityScore),
+      factor: "Kerentanan Lingkungan",
+      score: input.riskScore,
+      impact: getImpact(input.riskScore),
+
       description:
-        "Kerentanan dihitung dari kepadatan penduduk, riwayat kasus, dan laporan masyarakat.",
+        "Kerentanan wilayah dihitung berdasarkan kelembapan, curah hujan, dan suhu lingkungan.",
     },
   ].sort((a, b) => b.score - a.score);
 
@@ -143,13 +158,14 @@ export function predictOutbreakRisk(input: OutbreakPredictionInput) {
 
     inputSnapshot: {
       temperature: input.temperature,
+
       humidity: input.humidity,
+
       rainfall: input.rainfall,
-      windSpeed: input.windSpeed,
-      populationDensity: input.populationDensity,
-      previousCases: input.previousCases,
-      searchTrendIndex: input.searchTrendIndex,
-      communityReports: input.communityReports,
+
+      riskScore: input.riskScore,
+
+      riskStatus: input.riskStatus,
     },
   };
 }
@@ -220,16 +236,6 @@ function calculateClimateScore(input: OutbreakPredictionInput) {
       });
     }
 
-    if (input.windSpeed >= 20) {
-      score += 20;
-      factors.push({
-        factor: "Kecepatan Angin",
-        score: 65,
-        impact: "Sedang",
-        description:
-          "Angin dapat memperluas persebaran partikel udara pada kondisi tertentu.",
-      });
-    }
 
     if (input.temperature >= 33 || input.temperature <= 22) {
       score += 20;

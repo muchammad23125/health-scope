@@ -12,11 +12,6 @@ export async function POST(request: Request) {
       "temperature",
       "humidity",
       "rainfall",
-      "windSpeed",
-      "populationDensity",
-      "previousCases",
-      "searchTrendIndex",
-      "communityReports",
     ];
 
     for (const field of requiredFields) {
@@ -34,16 +29,20 @@ export async function POST(request: Request) {
 
     const result = predictOutbreakRisk({
       region: String(body.region),
+
       disease: body.disease,
+
       forecastDays: Number(body.forecastDays) === 14 ? 14 : 7,
+
       temperature: Number(body.temperature),
+
       humidity: Number(body.humidity),
+
       rainfall: Number(body.rainfall),
-      windSpeed: Number(body.windSpeed),
-      populationDensity: Number(body.populationDensity),
-      previousCases: Number(body.previousCases),
-      searchTrendIndex: Number(body.searchTrendIndex),
-      communityReports: Number(body.communityReports),
+
+      riskScore: Number(body.riskScore),
+
+      riskStatus: String(body.riskStatus),
     });
 
     return NextResponse.json({

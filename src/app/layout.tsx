@@ -1,10 +1,14 @@
-
-// @ts-ignore: Ignore CSS import declaration missing in TS config
+// @ts-ignore
 import "./globals.css";
+
 import Navbar from "@/components/layout/Navbar";
-import "maplibre-gl/dist/maplibre-gl.css";
 import Footer from "@/components/layout/Footer";
-// import "maplibre-gl/dist/maplibre-gl.css";  
+
+import "maplibre-gl/dist/maplibre-gl.css";
+
+import {
+  UserRiskProvider,
+} from "@/context/UserRiskContext";
 
 export default function RootLayout({
   children,
@@ -14,9 +18,17 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+
+        <UserRiskProvider>
+
+          <Navbar />
+
+          {children}
+
+          <Footer />
+
+        </UserRiskProvider>
+
       </body>
     </html>
   );
