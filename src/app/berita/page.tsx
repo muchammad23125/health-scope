@@ -1,5 +1,4 @@
 export default function BeritaPage() {
-
   const berita = [
     {
       id: 1,
@@ -64,14 +63,10 @@ export default function BeritaPage() {
 
   return (
     <main className="bg-[#F8FAFC] min-h-screen">
-
       {/* HERO */}
       <section className="bg-gradient-to-br from-[#EAF7F8] via-white to-[#F0FDFA]">
-
         <div className="max-w-7xl mx-auto px-5 md:px-8 lg:px-6 py-16 md:py-20">
-
           <div className="max-w-3xl">
-
             <span
               className="
                 inline-flex
@@ -82,8 +77,7 @@ export default function BeritaPage() {
                 text-teal-700
                 text-sm
                 font-semibold
-              "
-            >
+              ">
               Informasi Kesehatan Terkini
             </span>
 
@@ -102,8 +96,7 @@ export default function BeritaPage() {
 
                 font-bold
                 text-slate-900
-              "
-            >
+              ">
               Berita Kesehatan
             </h1>
 
@@ -118,25 +111,18 @@ export default function BeritaPage() {
 
                 md:text-lg
                 max-w-2xl
-              "
-            >
-              Ikuti perkembangan terbaru terkait penyakit,
-              kondisi lingkungan, serta informasi kesehatan
-              masyarakat yang dapat membantu meningkatkan
-              kewaspadaan terhadap risiko wabah.
+              ">
+              Ikuti perkembangan terbaru terkait penyakit, kondisi lingkungan,
+              serta informasi kesehatan masyarakat yang dapat membantu
+              meningkatkan kewaspadaan terhadap risiko wabah.
             </p>
-
           </div>
-
         </div>
-
       </section>
 
       {/* LIST BERITA */}
       <section className="py-12 md:py-16">
-
         <div className="max-w-7xl mx-auto px-5 md:px-8 lg:px-6">
-
           <div
             className="
         grid
@@ -144,11 +130,8 @@ export default function BeritaPage() {
         md:grid-cols-2
         xl:grid-cols-3
         gap-8
-      "
-          >
-
+      ">
             {berita.map((item) => (
-
               <article
                 key={item.id}
                 className="
@@ -170,12 +153,9 @@ export default function BeritaPage() {
 
             transition-all
             duration-300
-          "
-              >
-
+          ">
                 {/* IMAGE */}
                 <div className="relative">
-
                   <img
                     src={item.image}
                     alt={item.title}
@@ -204,19 +184,14 @@ export default function BeritaPage() {
                 font-bold
 
                 text-[#0F766E]
-              "
-                  >
+              ">
                     {item.kategori}
                   </div>
-
                 </div>
 
                 {/* CONTENT */}
                 <div className="p-6">
-
-                  <p className="text-sm text-slate-400">
-                    {item.tanggal}
-                  </p>
+                  <p className="text-sm text-slate-400">{item.tanggal}</p>
 
                   <h2
                     className="
@@ -229,8 +204,7 @@ export default function BeritaPage() {
                 text-slate-900
 
                 line-clamp-2
-              "
-                  >
+              ">
                     {item.title}
                   </h2>
 
@@ -243,8 +217,7 @@ export default function BeritaPage() {
                 leading-7
 
                 line-clamp-3
-              "
-                  >
+              ">
                     {item.desc}
                   </p>
 
@@ -258,23 +231,15 @@ export default function BeritaPage() {
                 group-hover:translate-x-1
 
                 transition-all
-              "
-                  >
+              ">
                     Baca Selengkapnya →
                   </button>
-
                 </div>
-
               </article>
-
             ))}
-
           </div>
-
         </div>
-
       </section>
-
     </main>
   );
 }

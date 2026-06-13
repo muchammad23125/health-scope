@@ -16,7 +16,6 @@ import {
   AlertTriangle,
   CheckCircle2,
   ChevronDown,
-
   HeartPulse,
   Activity,
 } from "lucide-react";
@@ -328,143 +327,85 @@ const penyakitData = {
       "Deteksi dini membantu mencegah komplikasi berat.",
     ],
   },
-}
+};
 
 export default function EdukasiPage() {
-
   const [selectedDisease, setSelectedDisease] =
     useState<keyof typeof penyakitData>("dbd");
 
-  const [openSection, setOpenSection] =
-    useState<number | null>(1);
+  const [openSection, setOpenSection] = useState<number | null>(1);
 
-  const disease =
-    penyakitData[selectedDisease];
+  const disease = penyakitData[selectedDisease];
 
   const diseaseIcons = {
+    dbd: <Bug className="w-14 h-14 text-[#0F766E]" />,
 
-    dbd: (
-      <Bug className="w-14 h-14 text-[#0F766E]" />
-    ),
+    ispa: <Wind className="w-14 h-14 text-[#0F766E]" />,
 
-    ispa: (
-      <Wind className="w-14 h-14 text-[#0F766E]" />
-    ),
-
-    leptospirosis: (
-      <Rat className="w-14 h-14 text-[#0F766E]" />
-    ),
-
+    leptospirosis: <Rat className="w-14 h-14 text-[#0F766E]" />,
   } as const;
 
   const symptomIcons = {
+    thermometer: <Thermometer className="w-8 h-8 text-red-500" />,
 
-    thermometer: (
-      <Thermometer className="w-8 h-8 text-red-500" />
-    ),
+    brain: <Brain className="w-8 h-8 text-indigo-500" />,
 
-    brain: (
-      <Brain className="w-8 h-8 text-indigo-500" />
-    ),
+    eye: <Eye className="w-8 h-8 text-sky-500" />,
 
-    eye: (
-      <Eye className="w-8 h-8 text-sky-500" />
-    ),
+    shield: <ShieldCheck className="w-8 h-8 text-amber-500" />,
 
-    shield: (
-      <ShieldCheck className="w-8 h-8 text-amber-500" />
-    ),
+    person: <PersonStanding className="w-8 h-8 text-emerald-600" />,
 
-    person: (
-      <PersonStanding className="w-8 h-8 text-emerald-600" />
-    ),
+    circle: <CircleDot className="w-8 h-8 text-red-600" />,
 
-    circle: (
-      <CircleDot className="w-8 h-8 text-red-600" />
-    ),
+    lung: <Wind className="w-8 h-8 text-cyan-600" />,
 
-    lung: (
-      <Wind className="w-8 h-8 text-cyan-600" />
-    ),
-
-    water: (
-      <Droplets className="w-8 h-8 text-blue-500" />
-    ),
-
+    water: <Droplets className="w-8 h-8 text-blue-500" />,
   } as const;
 
   const causeFlowIcons = {
+    bug: <Bug className="w-8 h-8 text-emerald-600" />,
 
-    bug: (
-      <Bug className="w-8 h-8 text-emerald-600" />
-    ),
+    virus: <ShieldCheck className="w-8 h-8 text-red-500" />,
 
-    virus: (
-      <ShieldCheck className="w-8 h-8 text-red-500" />
-    ),
+    person: <PersonStanding className="w-8 h-8 text-sky-500" />,
 
-    person: (
-      <PersonStanding className="w-8 h-8 text-sky-500" />
-    ),
+    heart: <HeartPulse className="w-8 h-8 text-pink-500" />,
 
-    heart: (
-      <HeartPulse className="w-8 h-8 text-pink-500" />
-    ),
+    wind: <Wind className="w-8 h-8 text-cyan-500" />,
 
-    wind: (
-      <Wind className="w-8 h-8 text-cyan-500" />
-    ),
+    lungs: <Activity className="w-8 h-8 text-indigo-500" />,
 
-    lungs: (
-      <Activity className="w-8 h-8 text-indigo-500" />
-    ),
+    droplets: <Droplets className="w-8 h-8 text-blue-500" />,
 
-    droplets: (
-      <Droplets className="w-8 h-8 text-blue-500" />
-    ),
-
-    rat: (
-      <Rat className="w-8 h-8 text-amber-600" />
-    ),
-
+    rat: <Rat className="w-8 h-8 text-amber-600" />,
   } as const;
 
   const diseaseList = [
-
     {
       key: "dbd",
       label: "DBD",
-      icon: (
-        <Bug className="w-6 h-6" />
-      ),
+      icon: <Bug className="w-6 h-6" />,
     },
 
     {
       key: "ispa",
       label: "ISPA",
-      icon: (
-        <Wind className="w-6 h-6" />
-      ),
+      icon: <Wind className="w-6 h-6" />,
     },
 
     {
       key: "leptospirosis",
       label: "Leptospirosis",
-      icon: (
-        <Rat className="w-6 h-6" />
-      ),
+      icon: <Rat className="w-6 h-6" />,
     },
-
   ] as const;
 
   return (
     <main className="bg-[#F7F9FB] min-h-screen">
-
       <div className="max-w-7xl mx-auto px-6 py-12">
-
         {/* HEADER */}
         <div>
-
           <h1
             className="
       text-[36px]
@@ -481,8 +422,7 @@ export default function EdukasiPage() {
 
       font-bold
       text-slate-900
-    "
-          >
+    ">
             Edukasi
           </h1>
 
@@ -503,34 +443,26 @@ export default function EdukasiPage() {
       max-w-full
       sm:max-w-lg
       lg:max-w-xl
-    "
-          >
-            Pelajari informasi dasar tentang berbagai penyakit
-            untuk menjaga kesehatan diri dan keluarga.
+    ">
+            Pelajari informasi dasar tentang berbagai penyakit untuk menjaga
+            kesehatan diri dan keluarga.
           </p>
-
         </div>
 
         {/* CONTENT */}
         <div className="grid lg:grid-cols-[260px_1fr] gap-8 mt-10">
-
           {/* SIDEBAR */}
           <aside className="bg-white border border-slate-200 rounded-3xl p-5 h-fit">
-
             <h3 className="font-bold text-xl text-slate-900 mb-6">
               Semua Penyakit
             </h3>
 
             <div className="space-y-3">
-
               {diseaseList.map((item) => (
-
                 <button
                   key={item.key}
                   onClick={() => {
-                    setSelectedDisease(
-                      item.key as keyof typeof penyakitData
-                    );
+                    setSelectedDisease(item.key as keyof typeof penyakitData);
 
                     setOpenSection(1);
                   }}
@@ -546,47 +478,37 @@ export default function EdukasiPage() {
           duration-300
           text-left
 
-          ${selectedDisease === item.key
-                      ? `
+          ${
+            selectedDisease === item.key
+              ? `
                 bg-[#EDF8F5]
                 text-[#0F766E]
                 font-semibold
                 border
                 border-[#CFEFE4]
               `
-                      : `
+              : `
                 text-slate-700
                 hover:bg-slate-50
                 border
                 border-transparent
               `
-                    }
-        `}
-                >
+          }
+        `}>
+                  <div className="shrink-0">{item.icon}</div>
 
-                  <div className="shrink-0">
-                    {item.icon}
-                  </div>
-
-                  <span>
-                    {item.label}
-                  </span>
-
+                  <span>{item.label}</span>
                 </button>
-
               ))}
-
             </div>
-
           </aside>
 
           {/* CONTENT AREA */}
           <section className="bg-white border border-slate-200 rounded-3xl p-8">
-
             {/* TITLE */}
             <div className="flex items-center gap-6">
-
-              <div className="
+              <div
+                className="
     w-28
     h-28
     rounded-full
@@ -599,8 +521,8 @@ export default function EdukasiPage() {
               </div>
 
               <div>
-
-                <h2 className="
+                <h2
+                  className="
       text-[48px]
       leading-[56px]
       font-bold
@@ -609,7 +531,8 @@ export default function EdukasiPage() {
                   {disease.title}
                 </h2>
 
-                <p className="
+                <p
+                  className="
       mt-3
       text-lg
       text-slate-600
@@ -617,20 +540,13 @@ export default function EdukasiPage() {
     ">
                   {disease.description}
                 </p>
-
               </div>
-
             </div>
 
             {/* SECTION 1 */}
             <div className="mt-10 border border-slate-200 rounded-2xl overflow-hidden">
-
               <button
-                onClick={() =>
-                  setOpenSection(
-                    openSection === 1 ? null : 1
-                  )
-                }
+                onClick={() => setOpenSection(openSection === 1 ? null : 1)}
                 className="
       w-full
       flex
@@ -639,12 +555,10 @@ export default function EdukasiPage() {
       p-6
       text-left
       bg-white
-    "
-              >
-
+    ">
                 <div className="flex items-center gap-4">
-
-                  <div className="
+                  <div
+                    className="
         w-9
         h-9
         rounded-full
@@ -661,7 +575,6 @@ export default function EdukasiPage() {
                   <h3 className="text-2xl font-bold">
                     {disease.section1Title}
                   </h3>
-
                 </div>
 
                 <ChevronDown
@@ -671,44 +584,30 @@ export default function EdukasiPage() {
         ${openSection === 1 ? "rotate-180" : ""}
       `}
                 />
-
               </button>
 
               {openSection === 1 && (
-
                 <div className="px-6 pb-6 border-t border-slate-100">
-
-                  <div className="
+                  <div
+                    className="
         mt-6
         space-y-4
         text-slate-600
         leading-8
       ">
-
-                    {disease.section1Content.map(
-                      (paragraph, index) => (
-
-                        <p key={index}>
-                          {paragraph}
-                        </p>
-
-                      )
-                    )}
-
+                    {disease.section1Content.map((paragraph, index) => (
+                      <p key={index}>{paragraph}</p>
+                    ))}
                   </div>
-
                 </div>
-
               )}
-
             </div>
 
             {/* SECTION 2 */}
             <div className="mt-5 border border-slate-200 rounded-2xl p-6">
-
               <div className="flex items-center gap-4">
-
-                <div className="
+                <div
+                  className="
       w-9
       h-9
       rounded-full
@@ -722,13 +621,11 @@ export default function EdukasiPage() {
                   2
                 </div>
 
-                <h3 className="text-2xl font-bold">
-                  Gejala Umum
-                </h3>
-
+                <h3 className="text-2xl font-bold">Gejala Umum</h3>
               </div>
 
-              <div className="
+              <div
+                className="
     grid
     grid-cols-2
     md:grid-cols-3
@@ -736,9 +633,7 @@ export default function EdukasiPage() {
     gap-5
     mt-8
   ">
-
                 {disease.symptoms.map((item) => (
-
                   <div
                     key={item.label}
                     className="
@@ -748,9 +643,7 @@ export default function EdukasiPage() {
           bg-[#FAFCFB]
           border
           border-[#E6F4EF]
-        "
-                  >
-
+        ">
                     <div
                       className="
     w-20
@@ -764,16 +657,12 @@ export default function EdukasiPage() {
     items-center
     justify-center
     shadow-sm
-  "
-                    >
-                      {
-                        symptomIcons[
-                        item.icon as keyof typeof symptomIcons
-                        ]
-                      }
+  ">
+                      {symptomIcons[item.icon as keyof typeof symptomIcons]}
                     </div>
 
-                    <p className="
+                    <p
+                      className="
           mt-4
           text-sm
           font-medium
@@ -782,24 +671,15 @@ export default function EdukasiPage() {
         ">
                       {item.label}
                     </p>
-
                   </div>
-
                 ))}
-
               </div>
-
             </div>
 
             {/* SECTION 3 */}
             <div className="mt-5 border border-slate-200 rounded-2xl overflow-hidden">
-
               <button
-                onClick={() =>
-                  setOpenSection(
-                    openSection === 3 ? null : 3
-                  )
-                }
+                onClick={() => setOpenSection(openSection === 3 ? null : 3)}
                 className="
       w-full
       flex
@@ -808,12 +688,10 @@ export default function EdukasiPage() {
       p-6
       text-left
       bg-white
-    "
-              >
-
+    ">
                 <div className="flex items-center gap-4">
-
-                  <div className="
+                  <div
+                    className="
         w-9
         h-9
         rounded-full
@@ -827,10 +705,7 @@ export default function EdukasiPage() {
                     3
                   </div>
 
-                  <h3 className="text-2xl font-bold">
-                    Penyebab
-                  </h3>
-
+                  <h3 className="text-2xl font-bold">Penyebab</h3>
                 </div>
 
                 <ChevronDown
@@ -840,20 +715,16 @@ export default function EdukasiPage() {
         ${openSection === 3 ? "rotate-180" : ""}
       `}
                 />
-
               </button>
 
               {openSection === 3 && (
-
                 <div className="px-6 pb-6 border-t border-slate-100">
-
                   <p
                     className="
       mt-6
       text-slate-600
       leading-8
-    "
-                  >
+    ">
                     {disease.causeDescription}
                   </p>
 
@@ -866,20 +737,15 @@ export default function EdukasiPage() {
     items-center
     justify-center
     gap-4
-    "
-                  >
-
+    ">
                     {disease.causeFlow.map((item, index) => (
-
                       <div
                         key={item.title}
                         className="
       flex
       items-center
       gap-4
-    "
-                      >
-
+    ">
                         <div
                           className="
         bg-white
@@ -894,9 +760,7 @@ export default function EdukasiPage() {
         hover:shadow-md
         transition-all
         duration-300
-      "
-                        >
-
+      ">
                           <div
                             className="
           w-14
@@ -907,15 +771,12 @@ export default function EdukasiPage() {
           items-center
           justify-center
           mx-auto
-        "
-                          >
-
+        ">
                             {
                               causeFlowIcons[
-                              item.icon as keyof typeof causeFlowIcons
+                                item.icon as keyof typeof causeFlowIcons
                               ]
                             }
-
                           </div>
 
                           <p
@@ -925,49 +786,33 @@ export default function EdukasiPage() {
           font-semibold
           text-slate-800
           leading-5
-        "
-                          >
+        ">
                             {item.title}
                           </p>
-
                         </div>
 
                         {index < disease.causeFlow.length - 1 && (
-
                           <div
                             className="
           hidden
           md:flex
           text-slate-400
           text-3xl
-        "
-                          >
+        ">
                             →
                           </div>
-
                         )}
-
                       </div>
-
                     ))}
-
                   </div>
-
                 </div>
-
               )}
-
             </div>
 
             {/* SECTION 4 */}
             <div className="mt-5 border border-slate-200 rounded-2xl overflow-hidden">
-
               <button
-                onClick={() =>
-                  setOpenSection(
-                    openSection === 4 ? null : 4
-                  )
-                }
+                onClick={() => setOpenSection(openSection === 4 ? null : 4)}
                 className="
       w-full
       flex
@@ -976,11 +821,8 @@ export default function EdukasiPage() {
       p-6
       text-left
       bg-white
-    "
-              >
-
+    ">
                 <div className="flex items-center gap-4">
-
                   <div
                     className="
           w-9
@@ -992,15 +834,11 @@ export default function EdukasiPage() {
           flex
           items-center
           justify-center
-        "
-                  >
+        ">
                     4
                   </div>
 
-                  <h3 className="text-2xl font-bold">
-                    Cara Pencegahan
-                  </h3>
-
+                  <h3 className="text-2xl font-bold">Cara Pencegahan</h3>
                 </div>
 
                 <ChevronDown
@@ -1010,24 +848,18 @@ export default function EdukasiPage() {
         ${openSection === 4 ? "rotate-180" : ""}
       `}
                 />
-
               </button>
 
               {openSection === 4 && (
-
                 <div className="px-6 pb-6 border-t border-slate-100">
-
                   <div
                     className="
           grid
           md:grid-cols-2
           gap-4
           mt-6
-        "
-                  >
-
+        ">
                     {disease.prevention.map((item) => (
-
                       <div
                         key={item}
                         className="
@@ -1044,9 +876,7 @@ export default function EdukasiPage() {
               hover:shadow-md
               transition-all
               duration-300
-            "
-                      >
-
+            ">
                         <div
                           className="
                 w-12
@@ -1060,9 +890,7 @@ export default function EdukasiPage() {
                 group-hover:bg-[#0F9D73]
                 transition-all
                 duration-300
-              "
-                        >
-
+              ">
                           <CheckCircle2
                             className="
                   w-6
@@ -1073,33 +901,23 @@ export default function EdukasiPage() {
                   duration-300
                 "
                           />
-
                         </div>
 
                         <div className="flex-1">
-
                           <p
                             className="
                   text-slate-700
                   leading-6
                   font-medium
-                "
-                          >
+                ">
                             {item}
                           </p>
-
                         </div>
-
                       </div>
-
                     ))}
-
                   </div>
-
                 </div>
-
               )}
-
             </div>
 
             {/* SECTION 5 */}
@@ -1111,11 +929,8 @@ export default function EdukasiPage() {
     border
     border-red-100
     p-6
-  "
-            >
-
+  ">
               <div className="flex items-center gap-4">
-
                 <div
                   className="
         w-9
@@ -1127,8 +942,7 @@ export default function EdukasiPage() {
         flex
         items-center
         justify-center
-      "
-                >
+      ">
                   5
                 </div>
 
@@ -1137,11 +951,9 @@ export default function EdukasiPage() {
         text-2xl
         font-bold
         text-red-600
-      "
-                >
+      ">
                   Kapan Harus ke Fasilitas Kesehatan?
                 </h3>
-
               </div>
 
               <p
@@ -1149,8 +961,7 @@ export default function EdukasiPage() {
       mt-5
       text-slate-600
       leading-7
-    "
-              >
+    ">
                 Segera periksa ke fasilitas kesehatan jika mengalami:
               </p>
 
@@ -1161,11 +972,8 @@ export default function EdukasiPage() {
       lg:grid-cols-4
       gap-4
       mt-6
-    "
-              >
-
+    ">
                 {disease.warning.map((item) => (
-
                   <div
                     key={item}
                     className="
@@ -1180,9 +988,7 @@ export default function EdukasiPage() {
           hover:shadow-md
           transition-all
           duration-300
-        "
-                  >
-
+        ">
                     <div
                       className="
             w-10
@@ -1193,9 +999,7 @@ export default function EdukasiPage() {
             items-center
             justify-center
             shrink-0
-          "
-                    >
-
+          ">
                       <AlertTriangle
                         className="
               w-5
@@ -1203,7 +1007,6 @@ export default function EdukasiPage() {
               text-red-500
             "
                       />
-
                     </div>
 
                     <span
@@ -1212,24 +1015,17 @@ export default function EdukasiPage() {
             font-medium
             text-slate-700
             leading-5
-          "
-                    >
+          ">
                       {item}
                     </span>
-
                   </div>
-
                 ))}
-
               </div>
-
             </div>
 
             {/* SECTION 6 */}
             <div className="mt-5 border border-slate-200 rounded-2xl p-6">
-
               <div className="flex items-center gap-4">
-
                 <div
                   className="
         w-9
@@ -1241,15 +1037,11 @@ export default function EdukasiPage() {
         flex
         items-center
         justify-center
-      "
-                >
+      ">
                   6
                 </div>
 
-                <h3 className="text-2xl font-bold">
-                  Fakta Singkat
-                </h3>
-
+                <h3 className="text-2xl font-bold">Fakta Singkat</h3>
               </div>
 
               <ul
@@ -1260,27 +1052,15 @@ export default function EdukasiPage() {
       text-slate-600
       space-y-3
       leading-7
-    "
-              >
-
+    ">
                 {disease.facts.map((fact) => (
-
-                  <li key={fact}>
-                    {fact}
-                  </li>
-
+                  <li key={fact}>{fact}</li>
                 ))}
-
               </ul>
-
             </div>
-
           </section>
-
         </div>
-
       </div>
-
     </main>
   );
 }
